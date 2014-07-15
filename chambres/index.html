@@ -1,1017 +1,518 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="fr"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang="fr"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9" lang="fr"> <![endif]-->
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="fr"><![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8" lang="fr"><![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9" lang="fr"><![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="fr"> <!--<![endif]-->
-
-
-
-
 <head>
-   <meta charset="utf-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Chambres | La Bartette, Chambres et table d’hotes</title>
-	 
-	<meta name="description" content="Découvrez les chambres de la Bartette, Chambres et table d’hotes dans le midi de l’Auvergne…" />
-	<meta name="keywords" content="séjour, vacances, hébergement, gîte, chambres d’hôtes, lit, adulte, enfant salon, salle de bain, wc, Colchique, Perce neige, Coquelicot, Jonquille" />
-
-	
-	<meta name="robots" content="index, follow" />
-	<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=yes, minimal-ui" />
-	
-	<meta name="google-site-verification" content="2gsi31778nDLzFvwPJsK8I74Exd7tpYPjhSyTsKyPW4" />
-	<!--[if lte IE 8]>
-	   <link rel="stylesheet" href="../assets/css/lt-ie8.css">
-	<![endif]-->
-
-	<!--[if gt IE 8]><!-->
-	    
-	    <style>
-			.btn-icon-square span,.footer-logo-gites>span,.footer-logo-routard>span,.header-home-logo>span,.slick-next span,.slick-prev span{font:0/0 a;color:transparent;text-shadow:none;background-color:transparent;border:0}.bloc-info-citation p,.bloc-info-image-legende,.bloc-info-liennext,.bloc-info-reservation-titre,.bloc-info-titre,.btn,.footer-titre,.header-pages-subnav,.header-pages-titre,.titre,.titre-large,.titre-med,.titre-xlarge{-webkit-user-select:none;-moz-user-select:none;user-select:none}html{font-size:100%;line-height:1.61803em}*,:after,:before{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box}/*! normalize.css v3.0.1 | MIT License | git.io/normalize */html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block;vertical-align:baseline}audio:not([controls]){display:none;height:0}[hidden],template{display:none}a{background:0 0}a:active,a:hover{outline:0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:700}dfn{font-style:italic}mark{background:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-.5em}sub{bottom:-.25em}img{border:0}svg:not(:root){overflow:hidden}figure{margin:0;padding:0}hr{-moz-box-sizing:content-box;box-sizing:content-box;height:0}pre{overflow:auto}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0}button{overflow:visible}button,select{text-transform:none}button,html input[type=button],input[type=reset],input[type=submit]{-webkit-appearance:none;cursor:pointer;-moz-outline:0 none;outline:0 none}button[disabled],html input[disabled]{cursor:default}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}input{line-height:normal}input[type=checkbox],input[type=radio]{box-sizing:border-box;padding:0}input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-spin-button{height:auto}input[type=search]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration{-webkit-appearance:none}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{border:0;padding:0}textarea{overflow:auto}optgroup{font-weight:700}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}@font-face{font-family:pictos;src:url(../fonts/pictos.eot);src:url(../fonts/pictos.eot?#iefix) format("embedded-opentype"),url(data:application/x-font-woff;charset=utf-8;base64,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) format("woff"),url(../fonts/pictos.ttf) format("truetype");font-weight:400;font-style:normal}@font-face{font-family:arvo;src:url(../fonts/Arvo-Regular.eot);src:url(../fonts/Arvo-Regular.eot?#iefix) format("embedded-opentype"),url(../fonts/Arvo-Regular.woff) format("woff"),url(../fonts/Arvo-Regular.ttf) format("truetype");font-weight:400;font-style:normal}@font-face{font-family:handwrite;src:url(../fonts/flirtscript.eot);src:url(../fonts/flirtscript.eot?#iefix) format("embedded-opentype"),url(../fonts/flirtscript.woff) format("woff"),url(../fonts/flirtscript.ttf) format("truetype");font-weight:400;font-style:italic}.bloc-info-citation p,.bloc-info-reservation-titre,.bloc-info-titre,.footer-titre,.header-pages-titre,.nav-main-logo,.titre,.titre-large,.titre-med,.titre-xlarge{font-family:handwrite,georgia,times,serif;font-style:italic;-webkit-font-smoothing:subpixel-antialiased}.bloc-info-citation p .btn,.nav-main-logo span.sous-titre,html{font-family:arvo,georgia,times,serif}::-moz-selection{background:#fbea33;color:#4d4d4d;text-shadow:none}::selection{background:#fbea33;color:#4d4d4d;text-shadow:none}img::selection{background:0 0}img::-moz-selection{background:0 0}body{-webkit-tap-highlight-color:transparent}html{color:#4d4d4d;font-weight:400;font-style:normal;font-smooth:always;-webkit-font-smoothing:antialiased}body{position:relative}h1,h2,h3,h4,h5,h6{margin:0;font-size:100%}.bloc-info-liennext span:after,.bloc-info-reservation-titre span:before,.bloc-info-titre span:before,.btn-show-nav:after,.footer-titre span:before,.header-pages-subnav ul:after,.header-pages-subnav ul:before,.header-pages-titre span:before,.nav-main-links:after,.nav-main-links:before,.titre span:before,.titre-large span:before,.titre-med span:before,.titre-xlarge span:before{font-family:pictos;display:inline-block;overflow:hidden;width:100%;line-height:10px!important;text-overflow:clip;-webkit-font-smoothing:subpixel-antialiased;font-size:109.67px;height:10px;color:#8b8c8e;text-align:center!important;font-weight:400!important;z-index:1}.bloc-info-liennext span,.bloc-info-reservation-titre span,.bloc-info-titre span,.btn-show-nav,.footer-titre span,.header-pages-subnav ul,.header-pages-titre span,.nav-main-links,.titre span,.titre-large span,.titre-med span,.titre-xlarge span{position:relative}.bloc-info-liennext span:after,.btn-show-nav:after,.header-pages-subnav ul:after,.nav-main-links:after{content:"-";position:absolute;bottom:-5px;left:0}.bloc-info-reservation-titre span:before,.bloc-info-titre span:before,.footer-titre span:before,.header-pages-subnav ul:before,.header-pages-titre span:before,.nav-main-links:before,.titre span:before,.titre-large span:before,.titre-med span:before,.titre-xlarge span:before{content:"-";position:absolute;top:0;left:0}.bloc-info-reservation-titre,.bloc-info-titre,.footer-titre,.header-pages-titre,.titre,.titre-large,.titre-med,.titre-xlarge{font-weight:400;display:block;position:relative}.bloc-info-reservation-titre span,.bloc-info-titre span,.footer-titre span,.header-pages-titre span,.titre span,.titre-large span,.titre-med span,.titre-xlarge span{padding:0 .2em;display:inline-block}.bloc-info-reservation-titre span:before,.bloc-info-titre span:before,.footer-titre span:before,.header-pages-titre span:before,.titre span:before,.titre-large span:before,.titre-med span:before,.titre-xlarge span:before{color:inherit!important;position:absolute!important;left:0!important;top:75%!important;text-align:center!important}.bloc-info-titre,.titre-med{font-size:2.61803em;line-height:1.23607em}.footer-titre,.header-pages-titre,.titre-large{font-size:3.33019em;line-height:1.21467em;line-height:1.61803em}.titre-xlarge{font-size:11.09017em;line-height:1.09424em;line-height:1.61803em}p{-webkit-hyphens:auto;-moz-hyphens:auto;hyphens:auto;-ms-word-wrap:break-word;word-wrap:break-word;margin:0 0 1.61803em}p em{font-style:normal;color:#8b8c8e;font-size:.78615em;line-height:2.05817em;line-height:0}p a{display:inline-block;color:#c7d400}.no-touchevents p a:hover{color:#97a100}.text-small{font-size:.61803em;line-height:2.61803em;line-height:1.61803em}.text-chapeau{font-size:1.61803em;line-height:1.5em}.no-touchevents a:hover{-moz-transition:all .3s ease-out;-o-transition:all .3s ease-out;-webkit-transition:all .3s ease-out;transition:all .3s ease-out}.footer-links-list,.header-pages-subnav ul,.nav-main-links{padding:0;margin:0}.footer-links-list li,.header-pages-subnav ul li,.nav-main-links li{list-style-type:none;display:inline-block;padding:0;margin:0}.footer-links-list li a,.header-pages-subnav ul li a,.nav-main-links li a{display:inline-block;margin:0;padding:0;color:inherit}.btn{display:inline-block;*display:inline;zoom:1;padding:.2em .5em;text-decoration:none;color:#4d4d4d;font-weight:700;-moz-transition:all .2s ease-out;-o-transition:all .2s ease-out;-webkit-transition:all .2s ease-out;transition:all .2s ease-out;margin-bottom:1.61803em;border:3px solid red}.no-touchevents .btn:hover{background-color:#4d4d4d;color:#fff}.btn::-moz-focus-inner{padding:0;border:0}.icon-before:before{-webkit-font-smoothing:antialiased;font-weight:400;font-style:normal;font-family:pictos;line-height:0;content:attr(data-icon);margin-right:.5em}.btn-icon-square,.slick-next,.slick-prev{display:inline-block;width:3em;height:0;padding-top:3em;position:relative;background-color:#fff;border:0;-moz-transition:all .3s ease-out;-o-transition:all .3s ease-out;-webkit-transition:all .3s ease-out;transition:all .3s ease-out}.btn-icon-square:before,.slick-next:before,.slick-prev:before{content:"•";font-family:pictos;display:inline-block;height:0;line-height:0;font-size:25.89px!important;text-indent:0;position:absolute;width:100%;top:50%;left:0;color:#000}.responsive-image{display:inline-block;z-index:1;height:auto;width:100%;position:relative}.responsive-image-wrapper{position:relative;display:block;width:100%;height:0;overflow:hidden!important}.responsive-image-wrapper img{-moz-transition:opacity 1s ease-out;-o-transition:opacity 1s ease-out;-webkit-transition:opacity 1s ease-out;transition:opacity 1s ease-out;position:absolute;top:0;left:0;width:100%;opacity:1;-webkit-backface-visibility:hidden}.responsive-image-wrapper.loading .responsive-image-spinner,.responsive-image-wrapper.toload .responsive-image-spinner{display:block}.responsive-image-wrapper.loading img,.responsive-image-wrapper.toload img{opacity:0}.responsive-image-spinner{margin:0;padding:0;top:1em;left:1em;position:absolute!important;background-color:#c7d400;width:2%;height:0;padding-bottom:2%;display:block;display:none;-moz-animation:dots 1s infinite ease-in-out;-webkit-animation:dots 1s infinite ease-in-out;animation:dots 1s infinite ease-in-out;-moz-transform-origin:50% 50%;-ms-transform-origin:50% 50%;-webkit-transform-origin:50% 50%;transform-origin:50% 50%}.band,.bloc-info,.footer{position:relative}.band:after,.band:before,.bloc-info:after,.bloc-info:before,.footer:after,.footer:before{content:"";display:table}.band:after,.bloc-info:after,.footer:after{clear:both}.wrapper-band{max-width:64em;margin:2.42705em auto}.wrapper-band:after{content:" ";display:block;clear:both}.header-pages{max-width:64em;margin-left:auto;margin-right:auto}.header-pages:after{content:" ";display:block;clear:both}.header-pages-image0{margin-top:-1.61803em;width:45.83333%;float:right;margin-left:2.08333%;margin-right:2.08333%}.header-pages-image1{width:45.83333%;float:left;margin-left:2.08333%;margin-right:2.08333%;margin-top:1.61803em;z-index:1}.header-pages-titre{width:95.83333%;float:left;margin-left:2.08333%;margin-right:2.08333%;text-align:center;margin-top:-.32361em;z-index:5}.header-home-sous-titre{font-size:1.27202em;line-height:1.27202em;font-weight:400;background-color:#fff;padding:.80902em;display:inline-block}.header-home-sous-titre em{font-size:1.2em;font-family:handwrite,georgia,times,serif;-webkit-font-smoothing:antialiased}.wrapper-sous-titre{width:95.83333%;float:left;margin-left:2.08333%;margin-right:2.08333%;position:relative;z-index:5;margin-bottom:4.8541em;text-align:center}.header-home-logo{width:180px;background-color:#fff;padding:0;margin:0;display:inline-block}.header-home-logo>span{display:none}.header-home-logo .responsive-image-wrapper{padding-top:50%}.header-home-logo img{-moz-transition:all .3s ease;-o-transition:all .3s ease;-webkit-transition:all .3s ease;transition:all .3s ease}.no-touchevents .header-home-logo:hover img{opacity:.6}.header-pages-subnav{width:95.83333%;float:left;margin-left:2.08333%;margin-right:2.08333%;text-align:center;margin-bottom:3.23607em}.header-pages-subnav ul{display:inline-block;border:1.61803em solid #fff;padding:.80902em 0;background-color:#fff;z-index:5}.header-pages-subnav li{font-size:1.27202em;line-height:1.27202em;line-height:1.61803em}.header-pages-subnav a{text-decoration:none}.no-touchevents .header-pages-subnav a:hover{text-decoration:underline}.theme-rose .header-pages-titre{color:#eb9abe!important}.no-touchevents .theme-rose .header-pages-subnav ul a:hover,.theme-rose .header-pages-subnav ul:after,.theme-rose .header-pages-subnav ul:before{color:#eb9abe}.theme-vert .header-pages-titre{color:#c7d400!important}.no-touchevents .theme-vert .header-pages-subnav ul a:hover,.theme-vert .header-pages-subnav ul:after,.theme-vert .header-pages-subnav ul:before{color:#c7d400}.theme-moutarde .header-pages-titre{color:#eee15c!important}.no-touchevents .theme-moutarde .header-pages-subnav ul a:hover,.theme-moutarde .header-pages-subnav ul:after,.theme-moutarde .header-pages-subnav ul:before{color:#eee15c}.theme-jaune .header-pages-titre{color:#fbea33!important}.no-touchevents .theme-jaune .header-pages-subnav ul a:hover,.theme-jaune .header-pages-subnav ul:after,.theme-jaune .header-pages-subnav ul:before{color:#fbea33}.footer>.wrapper-band{margin-top:3.23607em}.footer-titre{width:95.83333%;float:left;margin-left:2.08333%;margin-right:2.08333%;text-align:center;z-index:2;color:#fbea33}.footer-image{width:95.83333%;float:left;margin-left:2.08333%;margin-right:2.08333%;margin-bottom:1.61803em;z-index:1}.footer-contacts{width:79.16667%;float:left;margin-right:2.08333%;margin-left:10.41667%;margin-bottom:1.61803em}.footer-logo-gites,.footer-logo-routard{display:inline-block;float:left}.footer-logo-gites>span,.footer-logo-routard>span{display:none}.no-touchevents .footer-logo-gites:hover img,.no-touchevents .footer-logo-routard:hover img{opacity:.6}.footer-logo-routard{display:block;width:90px}.footer-logo-routard img{width:100%}.footer-logo-gites{margin-right:1.61803em}.footer-logo-gites .responsive-image-wrapper{width:180px;padding-top:50%}.footer-links{background-color:#fbea33;margin-top:11.32624em;border-top:1px solid #fbea33}.footer-links .wrapper-band{margin-bottom:0;margin-top:0}.footer-portrait{margin-bottom:3.23607em;margin-top:-150px;text-align:center}.footer-portrait .responsive-image{width:300px}.footer-links-infos,.footer-links-partenaires{width:95.83333%;float:left;margin-left:2.08333%;margin-right:2.08333%}.footer-links-titre{border-bottom:2px solid #ddcb04;font-weight:700;margin-bottom:1.61803em}.footer-links-list{line-height:1.29443em}.footer-links-list li{margin-bottom:1.61803em;width:100%}.footer-links-list .info-lien,.footer-links-list .info-tel{font-size:.90824em;line-height:1.7815em;line-height:inherit;color:#605802}.no-touchevents .footer-links-list a:hover{color:#4d4d4d}.footer-copyright,.footer-signature{font-size:.78615em;line-height:2.05817em;line-height:1.61803em;text-align:center;color:#605802;width:95.83333%;float:left;margin-left:2.08333%;margin-right:2.08333%}.footer-copyright{clear:both!important;margin-top:1.61803em}.footer-signature{text-align:right;width:29.16667%;float:right;margin-left:2.08333%;margin-right:2.08333%}.footer-signature a{color:inherit}body.show-nav{width:100%;height:100%;overflow:hidden!important}body{overflow-x:hidden!important}.nav-main{position:fixed;width:100%;height:110vh;height:110%;text-align:center;top:0;left:0;background-color:#fbea33;background-color:rgba(251,234,51,.95);-moz-box-shadow:rgba(251,234,51,.95)10% 10% 0 10%;-webkit-box-shadow:rgba(251,234,51,.95)10% 10% 0 10%;box-shadow:rgba(251,234,51,.95)10% 10% 0 10%;display:table;z-index:90;-moz-transform:translateX(100%);-ms-transform:translateX(100%);-webkit-transform:translateX(100%);transform:translateX(100%)}.no-csstransforms .nav-main{width:0!important;height:0!important;overflow:hidden;display:none}.show-nav .nav-main{-moz-transform:translateX(0);-ms-transform:translateX(0);-webkit-transform:translateX(0);transform:translateX(0);-moz-transition:all .3s cubic-bezier(0.25,.46,.45,.94);-o-transition:all .3s cubic-bezier(0.25,.46,.45,.94);-webkit-transition:all .3s cubic-bezier(0.25,.46,.45,.94);transition:all .3s cubic-bezier(0.25,.46,.45,.94)}.no-csstransforms .show-nav .nav-main{display:table;width:100%!important;height:100%!important}.nav-main-wrapper-table{display:table-cell;vertical-align:middle}.nav-main-logo{color:rgba(77,77,77,.6);opacity:.8;text-decoration:none;font-size:2.05817em;line-height:1.17923em;display:block}.no-touchevents .nav-main-logo:hover{opacity:1}.nav-main-logo span.sous-titre{display:block;font-size:.3em;font-style:normal;line-height:.3em}.nav-main-links{display:inline-block;position:relative;padding:.80902em 1.61803em;margin-top:.80902em;margin-bottom:.80902em}.nav-main-links:after,.nav-main-links:before{color:#c4b404!important}.nav-main-links a{color:#4d4d4d;text-decoration:none;font-size:1.27202em;line-height:1.27202em;line-height:1.61803em}.no-touchevents .nav-main-links a:hover{text-decoration:underline}.nav-main-lien-facebook{color:rgba(77,77,77,.6);text-decoration:none;font-size:1.10103em;line-height:1.46957em}.no-touchevents .nav-main-lien-facebook:hover{text-decoration:underline}.fixed-nav{position:fixed!important;top:0;right:0;background-color:#fff;z-index:100;padding:.80902em;display:inline-block}.btn-show-nav{background-color:transparent;border:0}.btn-show-nav .active{display:none}.show-nav .btn-show-nav .active{display:inline-block}.show-nav .btn-show-nav .inactive{display:none}.show-nav .btn-show-nav .icon-before:before{content:"x"!important}.btn-show-nav:after{color:#fbea33!important}.slick-slider{position:relative;display:block;-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;-ms-touch-action:none;touch-action:none;-webkit-tap-highlight-color:transparent}.slick-list{position:relative;overflow:hidden;display:block;margin:0;padding:0;padding-top:10%;margin-top:-10%}.slick-list:focus{outline:0}.no-touchevents .slick-next:hover:before,.no-touchevents .slick-prev:hover:before{color:#fff}.slick-next{position:absolute;top:3.23607em;right:0}.slick-next:before{content:">"}.slick-prev{position:absolute;top:6.47214em;right:0}.slick-prev:before{content:"<"}.slick-list.dragging{cursor:pointer;cursor:hand}.slick-slide,.slick-slide img,.slick-slider .slick-list,.slick-track{-webkit-transform:translate3d(0,0,0);-moz-transform:translate3d(0,0,0);-ms-transform:translate3d(0,0,0);-o-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}.slick-track{position:relative;left:0;top:0;display:block;zoom:1}.slick-track:after,.slick-track:before{content:"";display:table}.slick-track:after{clear:both}.slick-loading .slick-track{visibility:hidden}.slick-slide{float:left;height:100%;min-height:1px;display:none}.slick-slide img{display:block}.slick-slide.slick-loading img{display:none}.slick-slide.dragging img{pointer-events:none}.slick-initialized .slick-slide{display:block}.slick-loading .slick-slide{visibility:hidden}.slick-vertical .slick-slide{display:block;height:auto;border:1px solid transparent}.bloc-info.bloc-info-impair{background-image:url(../img/bg-pattern.gif);background-image:url(data:image/gif;base64,R0lGODlhDgAOAIAAAPb29v///yH5BAAAAAAALAAAAAAOAA4AAAITDIKpCL1voJy02nVqy5TfD4ZfAQA7);background-repeat:repeat;background-position:top left}.bloc-info-titre{text-align:center;width:95.83333%;float:left;margin-left:2.08333%;margin-right:2.08333%;margin-bottom:.80902em}.bloc-info-texte{width:95.83333%;float:left;margin-left:2.08333%;margin-right:2.08333%}.bloc-info-image{width:95.83333%;float:left;margin-left:2.08333%;margin-right:2.08333%;position:relative;z-index:2!important;margin-top:3.23607em}.bloc-info-image:before{content:"";position:absolute;display:block;z-index:-1;top:-2.5%;left:2.5%;width:95%;height:105%;background-color:#cccdcd;opacity:.5}.bloc-info-image-legende{position:absolute;top:-9%;right:3%;font-size:.78615em;line-height:2.05817em;color:#cccdcd}.bloc-info-impair .bloc-info-image-legende{left:3%}.bloc-info-citation{width:95.83333%;float:left;margin-left:2.08333%;margin-right:2.08333%;text-align:center;margin-top:-1.61803em;padding-left:8.33333%;padding-right:8.33333%}.bloc-info-citation p{padding:.80902em;font-size:1.61803em;line-height:1.5em;display:inline-block;margin-bottom:0;position:relative;z-index:50!important;color:#fff}.bloc-info-citation p:before{content:"";display:block;position:absolute;top:-5%;left:0;width:105%;height:105%;z-index:-2!important;-moz-transform-origin:center center;-ms-transform-origin:center center;-webkit-transform-origin:center center;transform-origin:center center;-moz-transform:rotate(-1deg);-ms-transform:rotate(-1deg);-webkit-transform:rotate(-1deg);transform:rotate(-1deg)}.bloc-info-citation p .btn{font-style:normal;font-size:.5em;margin-bottom:0;text-decoration:underline}.bloc-info-reservation{margin-top:3.23607em;width:79.16667%;float:left;margin-right:2.08333%;margin-left:10.41667%}.bloc-info-reservation-titre{font-size:1.61803em;line-height:1.5em;-webkit-font-smoothing:subpixel-antialiased;text-align:center;width:95.83333%;float:left;margin-left:2.08333%;margin-right:2.08333%;margin-bottom:.80902em}.bloc-info-reservation .footer-links-list a{color:#8b8c8e}.no-touchevents .bloc-info-reservation .footer-links-list a:hover{color:#c7d400}.bloc-info-liennext{clear:both;width:95.83333%;float:left;margin-left:2.08333%;margin-right:2.08333%;text-align:center;text-decoration:none;font-size:.78615em;line-height:2.05817em;color:#8b8c8e;-moz-transition:color .3s ease-out;-o-transition:color .3s ease-out;-webkit-transition:color .3s ease-out;transition:color .3s ease-out;margin-top:1.61803em;position:relative;font-weight:400!important}.no-touchevents .bloc-info-liennext:hover{color:#4d4d4d}.bloc-info-liennext span{position:relative;padding:0 .2em;display:inline-block;overflow:hidden;padding-top:.80902em}.bloc-info-liennext span:after{position:absolute;top:0!important;color:#f7f7f7!important;z-index:-1}.bloc-info-liennext span:before{content:"↓ ";font-size:2.05817em;line-height:1.17923em;font-family:pictos;font-style:normal!important;z-index:5}.header-home-lien-scrolldown{margin-top:0;margin-bottom:3.23607em;font-size:1em;line-height:1.61803em}.header-home-lien-scrolldown span:after{position:absolute!important;top:80%!important;color:#fbea33!important}.theme-jaune .bloc-info-reservation-titre span:before,.theme-jaune .bloc-info-titre span:before{color:#fbea33!important}.theme-jaune .bloc-info-citation p:before,.theme-jaune .bloc-info-image:before{background-color:#fbea33}.theme-jaune .btn{border-color:#fbea33!important}.no-touchevents .theme-jaune .btn:hover,.no-touchevents .theme-jaune .slick-next:hover,.no-touchevents .theme-jaune .slick-prev:hover{background-color:#fbea33}.theme-vert .bloc-info-reservation-titre span:before,.theme-vert .bloc-info-titre span:before{color:#c7d400!important}.theme-vert .bloc-info-citation p:before,.theme-vert .bloc-info-image:before{background-color:#c7d400}.theme-vert .btn{border-color:#c7d400!important}.no-touchevents .theme-vert .btn:hover,.no-touchevents .theme-vert .slick-next:hover,.no-touchevents .theme-vert .slick-prev:hover{background-color:#c7d400}.theme-violet .bloc-info-reservation-titre span:before,.theme-violet .bloc-info-titre span:before{color:#754366!important}.theme-violet .bloc-info-citation p:before,.theme-violet .bloc-info-image:before{background-color:#754366}.theme-violet .btn{border-color:#754366!important}.no-touchevents .theme-violet .btn:hover,.no-touchevents .theme-violet .slick-next:hover,.no-touchevents .theme-violet .slick-prev:hover{background-color:#754366}.theme-light-yellow .bloc-info-reservation-titre span:before,.theme-light-yellow .bloc-info-titre span:before{color:#e7ff1d!important}.theme-light-yellow .bloc-info-citation p:before,.theme-light-yellow .bloc-info-image:before{background-color:#e7ff1d}.theme-light-yellow .btn{border-color:#e7ff1d!important}.no-touchevents .theme-light-yellow .btn:hover,.no-touchevents .theme-light-yellow .slick-next:hover,.no-touchevents .theme-light-yellow .slick-prev:hover{background-color:#e7ff1d}.theme-rouge .bloc-info-reservation-titre span:before,.theme-rouge .bloc-info-titre span:before{color:#a61223!important}.theme-rouge .bloc-info-citation p:before,.theme-rouge .bloc-info-image:before{background-color:#a61223}.theme-rouge .btn{border-color:#a61223!important}.no-touchevents .theme-rouge .btn:hover,.no-touchevents .theme-rouge .slick-next:hover,.no-touchevents .theme-rouge .slick-prev:hover{background-color:#a61223}.theme-jonquille .bloc-info-reservation-titre span:before,.theme-jonquille .bloc-info-titre span:before{color:#fd0!important}.theme-jonquille .bloc-info-citation p:before,.theme-jonquille .bloc-info-image:before{background-color:#fd0}.theme-jonquille .btn{border-color:#fd0!important}.no-touchevents .theme-jonquille .btn:hover,.no-touchevents .theme-jonquille .slick-next:hover,.no-touchevents .theme-jonquille .slick-prev:hover{background-color:#fd0}.theme-bleu .bloc-info-reservation-titre span:before,.theme-bleu .bloc-info-titre span:before{color:#33a7ff!important}.theme-bleu .bloc-info-citation p:before,.theme-bleu .bloc-info-image:before{background-color:#33a7ff}.theme-bleu .btn{border-color:#33a7ff!important}.no-touchevents .theme-bleu .btn:hover,.no-touchevents .theme-bleu .slick-next:hover,.no-touchevents .theme-bleu .slick-prev:hover{background-color:#33a7ff}.theme-moutarde .bloc-info-reservation-titre span:before,.theme-moutarde .bloc-info-titre span:before{color:#eee15c!important}.theme-moutarde .bloc-info-citation p:before,.theme-moutarde .bloc-info-image:before{background-color:#eee15c}.theme-moutarde .btn{border-color:#eee15c!important}.no-touchevents .theme-moutarde .btn:hover,.no-touchevents .theme-moutarde .slick-next:hover,.no-touchevents .theme-moutarde .slick-prev:hover{background-color:#eee15c}.theme-jaune .bloc-info-citation p{color:#9c8f03}.theme-light-yellow .bloc-info-citation p{color:#7e8d00}.theme-jonquille .bloc-info-citation p{color:#706100}.test-container{border:1px solid red;max-width:64em;margin-left:auto;margin-right:auto}.test-container:after{content:" ";display:block;clear:both}.test-col1{background-color:green;width:95.83333%;float:left;margin-left:2.08333%;margin-right:2.08333%}.test-col2{background-color:red;width:95.83333%;float:left;margin-left:2.08333%;margin-right:2.08333%}@media only screen and (-webkit-min-device-pixel-ratio:2),only screen and (min-resolution:192dpi),only screen and (min-resolution:2dppx){.bloc-info.bloc-info-impair{background-image:url(data:image/gif;base64,R0lGODlhDgAOAIAAAPb29v///yH5BAAAAAAALAAAAAAOAA4AAAITDIKpCL1voJy02nVqy5TfD4ZfAQA7);background-size:14px 14px}}@media (min-width:30em){.nav-main-links a{font-size:1.61803em;line-height:1.5em;line-height:1.61803em}.bloc-info-texte{width:79.16667%;float:left;margin-right:2.08333%;margin-left:10.41667%}.bloc-info-image{width:95.83333%;float:left;margin-left:2.08333%;margin-right:2.08333%}}@media (min-width:37.5em){.bloc-info-titre,.titre-med{font-size:4.23607em;line-height:1.1459em}.footer-titre,.header-pages-titre,.titre-large{font-size:6.8541em;line-height:1.06231em}.footer-image{width:45.83333%;float:left;margin-left:2.08333%;margin-right:2.08333%;margin-top:-3.23607em}.footer-contacts{width:45.83333%;float:right;margin-left:2.08333%;margin-right:2.08333%;margin-top:1.61803em}.footer-logo-gites{margin-left:-200px}.footer-links-infos{width:29.16667%;float:right;margin-left:2.08333%;margin-right:2.08333%}.footer-links-partenaires{width:62.5%;float:left;margin-left:2.08333%;margin-right:2.08333%}.footer-links-partenaires ul{-moz-columns:3em 2;-webkit-columns:3em 2;columns:3em 2}.footer-copyright,.footer-signature{margin-top:1.61803em}.footer-copyright{width:62.5%;float:left;margin-left:2.08333%;margin-right:2.08333%;text-align:left}.nav-main-logo{font-size:4.23607em;line-height:1.1459em}.nav-main-links{margin-top:1.61803em;margin-bottom:1.61803em}.nav-main-lien-facebook{font-size:1.27202em;line-height:1.27202em}.slick-list{padding-top:5%;margin-top:-5%}.test-col1{width:45.83333%;float:left;margin-left:2.08333%;margin-right:2.08333%}.test-col2{width:45.83333%;float:right;margin-left:2.08333%;margin-right:2.08333%}}@media (min-width:48em){.wrapper-band{margin:4.8541em auto}.header-pages-image0{width:37.5%;float:right;margin-left:2.08333%;margin-right:2.08333%}.header-pages-image1{width:37.5%;float:right;margin-left:2.08333%;margin-right:2.08333%;margin-top:3.23607em}.header-pages-titre{text-align:left;width:79.16667%;float:left;margin-left:2.08333%;margin-right:2.08333%;margin-top:-2.26525em}.header-home-sous-titre{font-size:1.61803em;line-height:1.5em}.wrapper-sous-titre{margin-top:-1.61803em}.header-pages-subnav{margin-top:-3.23607em}.footer-image{width:37.5%;float:left;margin-right:2.08333%;margin-left:10.41667%}.footer-contacts{width:45.83333%;float:right;margin-left:2.08333%;margin-right:2.08333%}.footer-logo-gites{margin-left:0}.fixed-nav{right:2em}.bloc-info-titre{margin-bottom:1.61803em}.bloc-info-citation{padding-left:25%;padding-right:25%}.bloc-info-citation p{font-size:2.05817em;line-height:1.17923em;font-weight:400}.bloc-info-reservation{width:45.83333%;float:left;margin-right:2.08333%;margin-left:27.08333%}.bloc-info-reservation .footer-links-list{border:1px solid transparent;-moz-columns:2em 2;-webkit-columns:2em 2;columns:2em 2}}@media (min-width:62em){.slick-next{right:-1.5em}.bloc-info-impair .slick-next{position:absolute;top:3.23607em;left:-1.5em}.slick-prev{right:-1.5em}.bloc-info-impair .slick-prev{position:absolute;top:6.47214em;left:-1.5em}.bloc-info-texte{width:29.16667%;float:left;margin-left:2.08333%;margin-right:2.08333%;margin-top:1.61803em}.bloc-info-impair .bloc-info-texte{width:29.16667%;float:right;margin-left:2.08333%;margin-right:2.08333%}.page-tarifs .bloc-info-impair .bloc-info-texte{width:37.5%;float:right;margin-left:2.08333%;margin-right:2.08333%}.page-chambres .bloc-info-impair .bloc-info-texte{width:20.83333%;float:right;margin-left:2.08333%;margin-right:2.08333%}.page-tarifs .bloc-info-texte{margin-left:10.41667%}.page-chambres .bloc-info-texte{width:20.83333%;float:left;margin-left:2.08333%;margin-right:2.08333%}.bloc-info-image{width:62.5%;float:left;margin-left:2.08333%;margin-right:2.08333%;margin-top:-1.61803em}.bloc-info-impair .bloc-info-image{width:62.5%;float:left;margin-left:2.08333%;margin-right:2.08333%}.page-tarifs .bloc-info-impair .bloc-info-image{width:45.83333%;float:left;margin-right:2.08333%;margin-left:10.41667%}.page-chambres .bloc-info-impair .bloc-info-image{width:70.83333%;float:left;margin-left:2.08333%;margin-right:2.08333%}.page-tarifs .bloc-info-image{width:45.83333%;float:left;margin-left:2.08333%;margin-right:2.08333%;margin-right:10.41667%}.page-chambres .bloc-info-image{width:70.83333%;float:right;margin-left:2.08333%;margin-right:2.08333%}}@-moz-keyframes fadein{0%{opacity:0;-webkit-transform:translateX(100%)}100%{opacity:1;-webkit-transform:translateX(0)}}@-webkit-keyframes fadein{0%{opacity:0;-webkit-transform:translateX(100%)}100%{opacity:1;-webkit-transform:translateX(0)}}@keyframes fadein{0%{opacity:0;-webkit-transform:translateX(100%)}100%{opacity:1;-webkit-transform:translateX(0)}}@-moz-keyframes fadeout{0%{opacity:0;-webkit-transform:translateX(0)}100%{opacity:1;-webkit-transform:translateX(100%)}}@-webkit-keyframes fadeout{0%{opacity:0;-webkit-transform:translateX(0)}100%{opacity:1;-webkit-transform:translateX(100%)}}@keyframes fadeout{0%{opacity:0;-webkit-transform:translateX(0)}100%{opacity:1;-webkit-transform:translateX(100%)}}@-moz-keyframes dots{0%{opacity:0}50%{opacity:1}100%{opacity:0}}@-webkit-keyframes dots{0%{opacity:0}50%{opacity:1}100%{opacity:0}}@keyframes dots{0%{opacity:0}50%{opacity:1}100%{opacity:0}}
-	    </style>
-	<!--<![endif]-->
-
-
-	<!--[if lt IE 9]>
-		<script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js"></script>
-	<![endif]-->
-
-
-	<meta name="msapplication-square70x70logo" content="../assets/img/icons/windows-tile-70x70.png">
-	<meta name="msapplication-square150x150logo" content="../assets/img/icons/windows-tile-150x150.png">
-	<meta name="msapplication-square310x310logo" content="../assets/img/icons/windows-tile-310x310.png">
-	<meta name="msapplication-TileImage" content="../assets/img/icons/windows-tile-144x144.png">
-	<meta name="msapplication-TileColor" content="#c7d400">
-	<link rel="apple-touch-icon-precomposed" sizes="152x152" href="../assets/img/icons/apple-touch-icon-152x152-precomposed.png">
-	<link rel="apple-touch-icon-precomposed" sizes="120x120" href="../assets/img/icons/apple-touch-icon-120x120-precomposed.png">
-	<link rel="apple-touch-icon-precomposed" sizes="76x76" href="../assets/img/icons/apple-touch-icon-76x76-precomposed.png">
-	<link rel="apple-touch-icon-precomposed" sizes="60x60" href="../assets/img/icons/apple-touch-icon-60x60-precomposed.png">
-	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/img/icons/apple-touch-icon-144x144-precomposed.png">
-	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/img/icons/apple-touch-icon-114x114-precomposed.png">
-	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/img/icons/apple-touch-icon-72x72-precomposed.png">
-	<link rel="apple-touch-icon" sizes="57x57" href="../assets/img/icons/apple-touch-icon.png">
-	<link rel="icon" sizes="228x228" href="../assets/img/icons/coast-icon-228x228.png">
-	<link rel="shortcut icon" href="../assets/img/icons/favicon.ico">
-	<link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAMAAACdt4HsAAAAGFBMVEUAAABLS0tGRkZJSUlLS0tKSkpKSkpMTEyVCkznAAAAB3RSTlMA5xg+wpVowzVHqAAAAh1JREFUeNqlV9ESwjAIEwL0//9Yr7eBVGt6J49uySCEUh8tNAKPf8LHkH8YIGMM0+1zBZQTjNg8dJNXWPzgUBu7FOCTPJ9vAuN7CuoyKvyxj+8phI0WoClsPi8ihyl0/F17QDWYCvMFQRN2hoRmo4Q2wj/whm4VkoJpx4vru0jGzYSOL1WdiJivNDyWiiYfkVFLf0FrM503zRoSX+ElAa8hGn6dNt4HSNevDxvtg4R9utrbT8RLl+u1MVcCXIQZ1vGlCRchBVxN7YdHY1ariFdAYS0nJkJ+LO5hlDZTRyKYphy9Jh7ZQUgn8DN87BIoW3EJiqBHHCcwBzIKKXKag0od3uo33AFL3kMfYq5rExFz1PHg1EW9XH1FHxI9HYTYLl+egGxyPT1SZfci6DioTGhsCDT3EtlsnWD1GPhi+yTQOda4CFgCK4HCTcqOoMu9Eyi/X6x9LoKCVwj4ZvY0DBJeBMokfCMISZi5R242ttltEhReLKDpRFZBtvvGi6N94XcPvAyHPInbblay18vytmw3bGasXx40a4kFr3bUxJradZdfhOxiUe1cFAuymy9Y5AWhKZYdDXIUCLKW1nN1vprqEmvLoVKG9m0B1bu0y20r1bCReEpwiZk2EjMZhecEeSxOUTPyuk4J7gSw7nbD4X++KL+GFDz0cKna+1UMLjJPAuj5vaTbRQEoQ5fXidws1BmeM8yK93bngYiuF48nX10gsvxh68MAAAAASUVORK5CYII=" />
-
-
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Chambres | La Bartette, Chambres et table d’hotes</title>
+<meta name="description" content="Découvrez les chambres de la Bartette, Chambres et table d’hotes dans le midi de l’Auvergne…"/>
+<meta name="keywords" content="séjour, vacances, hébergement, gîte, chambres d’hôtes, lit, adulte, enfant salon, salle de bain, wc, Colchique, Perce neige, Coquelicot, Jonquille"/>
+<meta name="robots" content="index, follow"/>
+<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=yes, minimal-ui"/>
+<meta name="google-site-verification" content="2gsi31778nDLzFvwPJsK8I74Exd7tpYPjhSyTsKyPW4"/>
+<!--[if lte IE 8]><link rel="stylesheet" href="../assets/css/lt-ie8.css"><![endif]-->
+<!--[if gt IE 8]><!--> <style>
+	    .btn-icon-square span,.footer-logo-gites>span,.footer-logo-routard>span,.header-home-logo>span,.slick-next span,.slick-prev span{font:0/0 a;color:transparent;text-shadow:none;background-color:transparent;border:0}.bloc-info-citation p,.bloc-info-image-legende,.bloc-info-liennext,.bloc-info-reservation-titre,.bloc-info-titre,.btn,.footer-titre,.header-pages-subnav,.header-pages-titre,.titre,.titre-large,.titre-med,.titre-xlarge{-webkit-user-select:none;-moz-user-select:none;user-select:none}html{font-size:100%;line-height:1.61803em}*,:after,:before{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box}/*! normalize.css v3.0.1 | MIT License | git.io/normalize */html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block;vertical-align:baseline}audio:not([controls]){display:none;height:0}[hidden],template{display:none}a{background:0 0}a:active,a:hover{outline:0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:700}dfn{font-style:italic}mark{background:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-.5em}sub{bottom:-.25em}img{border:0}svg:not(:root){overflow:hidden}figure{margin:0;padding:0}hr{-moz-box-sizing:content-box;box-sizing:content-box;height:0}pre{overflow:auto}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0}button{overflow:visible}button,select{text-transform:none}button,html input[type=button],input[type=reset],input[type=submit]{-webkit-appearance:none;cursor:pointer;-moz-outline:0 none;outline:0 none}button[disabled],html input[disabled]{cursor:default}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}input{line-height:normal}input[type=checkbox],input[type=radio]{box-sizing:border-box;padding:0}input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-spin-button{height:auto}input[type=search]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration{-webkit-appearance:none}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{border:0;padding:0}textarea{overflow:auto}optgroup{font-weight:700}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}@font-face{font-family:pictos;src:url(http://labartette.fr/assets/fonts/pictos.eot);src:url(http://labartette.fr/assets/fonts/pictos.eot?#iefix) format("embedded-opentype"),url(data:application/x-font-woff;charset=utf-8;base64,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) format("woff"),url(http://labartette.fr/assets/fonts/pictos.ttf) format("truetype");font-weight:400;font-style:normal}@font-face{font-family:arvo;src:url(http://labartette.fr/assets/fonts/Arvo-Regular.eot);src:url(http://labartette.fr/assets/fonts/Arvo-Regular.eot?#iefix) format("embedded-opentype"),url(http://labartette.fr/assets/fonts/Arvo-Regular.woff) format("woff"),url(http://labartette.fr/assets/fonts/Arvo-Regular.ttf) format("truetype");font-weight:400;font-style:normal}@font-face{font-family:handwrite;src:url(http://labartette.fr/assets/fonts/flirtscript.eot);src:url(http://labartette.fr/assets/fonts/flirtscript.eot?#iefix) format("embedded-opentype"),url(http://labartette.fr/assets/fonts/flirtscript.woff) format("woff"),url(http://labartette.fr/assets/fonts/flirtscript.ttf) format("truetype");font-weight:400;font-style:italic}.bloc-info-citation p,.bloc-info-reservation-titre,.bloc-info-titre,.footer-titre,.header-pages-titre,.nav-main-logo,.titre,.titre-large,.titre-med,.titre-xlarge{font-family:handwrite,georgia,times,serif;font-style:italic;-webkit-font-smoothing:subpixel-antialiased}.bloc-info-citation p .btn,.nav-main-logo span.sous-titre,html{font-family:arvo,georgia,times,serif}::-moz-selection{background:#fbea33;color:#4d4d4d;text-shadow:none}::selection{background:#fbea33;color:#4d4d4d;text-shadow:none}img::selection{background:0 0}img::-moz-selection{background:0 0}body{-webkit-tap-highlight-color:transparent}html{color:#4d4d4d;font-weight:400;font-style:normal;font-smooth:always;-webkit-font-smoothing:antialiased}body{position:relative}h1,h2,h3,h4,h5,h6{margin:0;font-size:100%}.bloc-info-liennext span:after,.bloc-info-reservation-titre span:before,.bloc-info-titre span:before,.btn-show-nav:after,.footer-titre span:before,.header-pages-subnav ul:after,.header-pages-subnav ul:before,.header-pages-titre span:before,.nav-main-links:after,.nav-main-links:before,.titre span:before,.titre-large span:before,.titre-med span:before,.titre-xlarge span:before{font-family:pictos;display:inline-block;overflow:hidden;width:100%;line-height:10px!important;text-overflow:clip;-webkit-font-smoothing:subpixel-antialiased;font-size:109.67px;height:10px;color:#8b8c8e;text-align:center!important;font-weight:400!important;z-index:1}.bloc-info-liennext span,.bloc-info-reservation-titre span,.bloc-info-titre span,.btn-show-nav,.footer-titre span,.header-pages-subnav ul,.header-pages-titre span,.nav-main-links,.titre span,.titre-large span,.titre-med span,.titre-xlarge span{position:relative}.bloc-info-liennext span:after,.btn-show-nav:after,.header-pages-subnav ul:after,.nav-main-links:after{content:"-";position:absolute;bottom:-5px;left:0}.bloc-info-reservation-titre span:before,.bloc-info-titre span:before,.footer-titre span:before,.header-pages-subnav ul:before,.header-pages-titre span:before,.nav-main-links:before,.titre span:before,.titre-large span:before,.titre-med span:before,.titre-xlarge span:before{content:"-";position:absolute;top:0;left:0}.bloc-info-reservation-titre,.bloc-info-titre,.footer-titre,.header-pages-titre,.titre,.titre-large,.titre-med,.titre-xlarge{font-weight:400;display:block;position:relative}.bloc-info-reservation-titre span,.bloc-info-titre span,.footer-titre span,.header-pages-titre span,.titre span,.titre-large span,.titre-med span,.titre-xlarge span{padding:0 .2em;display:inline-block}.bloc-info-reservation-titre span:before,.bloc-info-titre span:before,.footer-titre span:before,.header-pages-titre span:before,.titre span:before,.titre-large span:before,.titre-med span:before,.titre-xlarge span:before{color:inherit!important;position:absolute!important;left:0!important;top:75%!important;text-align:center!important}.bloc-info-titre,.titre-med{font-size:2.61803em;line-height:1.23607em}.footer-titre,.header-pages-titre,.titre-large{font-size:3.33019em;line-height:1.21467em;line-height:1.61803em}.titre-xlarge{font-size:11.09017em;line-height:1.09424em;line-height:1.61803em}p{-webkit-hyphens:auto;-moz-hyphens:auto;hyphens:auto;-ms-word-wrap:break-word;word-wrap:break-word;margin:0 0 1.61803em}p em{font-style:normal;color:#8b8c8e;font-size:.78615em;line-height:2.05817em;line-height:0}p a{display:inline-block;color:#c7d400}.no-touchevents p a:hover{color:#97a100}.text-small{font-size:.61803em;line-height:2.61803em;line-height:1.61803em}.text-chapeau{font-size:1.61803em;line-height:1.5em}.no-touchevents a:hover{-moz-transition:all .3s ease-out;-o-transition:all .3s ease-out;-webkit-transition:all .3s ease-out;transition:all .3s ease-out}.footer-links-list,.header-pages-subnav ul,.nav-main-links{padding:0;margin:0}.footer-links-list li,.header-pages-subnav ul li,.nav-main-links li{list-style-type:none;display:inline-block;padding:0;margin:0}.footer-links-list li a,.header-pages-subnav ul li a,.nav-main-links li a{display:inline-block;margin:0;padding:0;color:inherit}.btn{display:inline-block;*display:inline;zoom:1;padding:.2em .5em;text-decoration:none;color:#4d4d4d;font-weight:700;-moz-transition:all .2s ease-out;-o-transition:all .2s ease-out;-webkit-transition:all .2s ease-out;transition:all .2s ease-out;margin-bottom:1.61803em;border:3px solid red}.no-touchevents .btn:hover{background-color:#4d4d4d;color:#fff}.btn::-moz-focus-inner{padding:0;border:0}.icon-before:before{-webkit-font-smoothing:antialiased;font-weight:400;font-style:normal;font-family:pictos;line-height:0;content:attr(data-icon);margin-right:.5em}.btn-icon-square,.slick-next,.slick-prev{display:inline-block;width:3em;height:0;padding-top:3em;position:relative;background-color:#fff;border:0;-moz-transition:all .3s ease-out;-o-transition:all .3s ease-out;-webkit-transition:all .3s ease-out;transition:all .3s ease-out}.btn-icon-square:before,.slick-next:before,.slick-prev:before{content:"•";font-family:pictos;display:inline-block;height:0;line-height:0;font-size:25.89px!important;text-indent:0;position:absolute;width:100%;top:50%;left:0;color:#000}.responsive-image{display:inline-block;z-index:1;height:auto;width:100%;position:relative}.responsive-image-wrapper{position:relative;display:block;width:100%;height:0;overflow:hidden!important}.responsive-image-wrapper img{-moz-transition:opacity 1s ease-out;-o-transition:opacity 1s ease-out;-webkit-transition:opacity 1s ease-out;transition:opacity 1s ease-out;position:absolute;top:0;left:0;width:100%;opacity:1;-webkit-backface-visibility:hidden}.responsive-image-wrapper.loading .responsive-image-spinner,.responsive-image-wrapper.toload .responsive-image-spinner{display:block}.responsive-image-wrapper.loading img,.responsive-image-wrapper.toload img{opacity:0}.responsive-image-spinner{margin:0;padding:0;top:1em;left:1em;position:absolute!important;background-color:#c7d400;width:2%;height:0;padding-bottom:2%;display:block;display:none;-moz-animation:dots 1s infinite ease-in-out;-webkit-animation:dots 1s infinite ease-in-out;animation:dots 1s infinite ease-in-out;-moz-transform-origin:50% 50%;-ms-transform-origin:50% 50%;-webkit-transform-origin:50% 50%;transform-origin:50% 50%}.band,.bloc-info,.footer{position:relative}.band:after,.band:before,.bloc-info:after,.bloc-info:before,.footer:after,.footer:before{content:"";display:table}.band:after,.bloc-info:after,.footer:after{clear:both}.wrapper-band{max-width:64em;margin:2.42705em auto}.wrapper-band:after{content:" ";display:block;clear:both}.header-pages{max-width:64em;margin-left:auto;margin-right:auto}.header-pages:after{content:" ";display:block;clear:both}.header-pages-image0{margin-top:-1.61803em;width:45.83333%;float:right;margin-left:2.08333%;margin-right:2.08333%}.header-pages-image1{width:45.83333%;float:left;margin-left:2.08333%;margin-right:2.08333%;margin-top:1.61803em;z-index:1}.header-pages-titre{width:95.83333%;float:left;margin-left:2.08333%;margin-right:2.08333%;text-align:center;margin-top:-.32361em;z-index:5}.header-home-sous-titre{font-size:1.27202em;line-height:1.27202em;font-weight:400;background-color:#fff;padding:.80902em;display:inline-block}.header-home-sous-titre em{font-size:1.2em;font-family:handwrite,georgia,times,serif;-webkit-font-smoothing:antialiased}.wrapper-sous-titre{width:95.83333%;float:left;margin-left:2.08333%;margin-right:2.08333%;position:relative;z-index:5;margin-bottom:4.8541em;text-align:center}.header-home-logo{width:180px;background-color:#fff;padding:0;margin:0;display:inline-block}.header-home-logo>span{display:none}.header-home-logo .responsive-image-wrapper{padding-top:50%}.header-home-logo img{-moz-transition:all .3s ease;-o-transition:all .3s ease;-webkit-transition:all .3s ease;transition:all .3s ease}.no-touchevents .header-home-logo:hover img{opacity:.6}.header-pages-subnav{width:95.83333%;float:left;margin-left:2.08333%;margin-right:2.08333%;text-align:center;margin-bottom:3.23607em}.header-pages-subnav ul{display:inline-block;border:1.61803em solid #fff;padding:.80902em 0;background-color:#fff;z-index:5}.header-pages-subnav li{font-size:1.27202em;line-height:1.27202em;line-height:1.61803em}.header-pages-subnav a{text-decoration:none}.no-touchevents .header-pages-subnav a:hover{text-decoration:underline}.theme-rose .header-pages-titre{color:#eb9abe!important}.no-touchevents .theme-rose .header-pages-subnav ul a:hover,.theme-rose .header-pages-subnav ul:after,.theme-rose .header-pages-subnav ul:before{color:#eb9abe}.theme-vert .header-pages-titre{color:#c7d400!important}.no-touchevents .theme-vert .header-pages-subnav ul a:hover,.theme-vert .header-pages-subnav ul:after,.theme-vert .header-pages-subnav ul:before{color:#c7d400}.theme-moutarde .header-pages-titre{color:#eee15c!important}.no-touchevents .theme-moutarde .header-pages-subnav ul a:hover,.theme-moutarde .header-pages-subnav ul:after,.theme-moutarde .header-pages-subnav ul:before{color:#eee15c}.theme-jaune .header-pages-titre{color:#fbea33!important}.no-touchevents .theme-jaune .header-pages-subnav ul a:hover,.theme-jaune .header-pages-subnav ul:after,.theme-jaune .header-pages-subnav ul:before{color:#fbea33}.footer>.wrapper-band{margin-top:3.23607em}.footer-titre{width:95.83333%;float:left;margin-left:2.08333%;margin-right:2.08333%;text-align:center;z-index:2;color:#fbea33}.footer-image{width:95.83333%;float:left;margin-left:2.08333%;margin-right:2.08333%;margin-bottom:1.61803em;z-index:1}.footer-contacts{width:79.16667%;float:left;margin-right:2.08333%;margin-left:10.41667%;margin-bottom:1.61803em}.footer-logo-gites,.footer-logo-routard{display:inline-block;float:left}.footer-logo-gites>span,.footer-logo-routard>span{display:none}.no-touchevents .footer-logo-gites:hover img,.no-touchevents .footer-logo-routard:hover img{opacity:.6}.footer-logo-routard{display:block;width:90px}.footer-logo-routard img{width:100%}.footer-logo-gites{margin-right:1.61803em}.footer-logo-gites .responsive-image-wrapper{width:180px;padding-top:50%}.footer-links{background-color:#fbea33;margin-top:11.32624em;border-top:1px solid #fbea33}.footer-links .wrapper-band{margin-bottom:0;margin-top:0}.footer-portrait{margin-bottom:3.23607em;margin-top:-150px;text-align:center}.footer-portrait .responsive-image{width:300px}.footer-links-infos,.footer-links-partenaires{width:95.83333%;float:left;margin-left:2.08333%;margin-right:2.08333%}.footer-links-titre{border-bottom:2px solid #ddcb04;font-weight:700;margin-bottom:1.61803em}.footer-links-list{line-height:1.29443em}.footer-links-list li{margin-bottom:1.61803em;width:100%}.footer-links-list .info-lien,.footer-links-list .info-tel{font-size:.90824em;line-height:1.7815em;line-height:inherit;color:#605802}.no-touchevents .footer-links-list a:hover{color:#4d4d4d}.footer-copyright,.footer-signature{font-size:.78615em;line-height:2.05817em;line-height:1.61803em;text-align:center;color:#605802;width:95.83333%;float:left;margin-left:2.08333%;margin-right:2.08333%}.footer-copyright{clear:both!important;margin-top:1.61803em}.footer-signature{text-align:right;width:29.16667%;float:right;margin-left:2.08333%;margin-right:2.08333%}.footer-signature a{color:inherit}body.show-nav{width:100%;height:100%;overflow:hidden!important}body{overflow-x:hidden!important}.nav-main{position:fixed;width:100%;height:110vh;height:110%;text-align:center;top:0;left:0;background-color:#fbea33;background-color:rgba(251,234,51,.95);-moz-box-shadow:rgba(251,234,51,.95)10% 10% 0 10%;-webkit-box-shadow:rgba(251,234,51,.95)10% 10% 0 10%;box-shadow:rgba(251,234,51,.95)10% 10% 0 10%;display:table;z-index:90;-moz-transform:translateX(100%);-ms-transform:translateX(100%);-webkit-transform:translateX(100%);transform:translateX(100%)}.no-csstransforms .nav-main{width:0!important;height:0!important;overflow:hidden;display:none}.show-nav .nav-main{-moz-transform:translateX(0);-ms-transform:translateX(0);-webkit-transform:translateX(0);transform:translateX(0);-moz-transition:all .3s cubic-bezier(0.25,.46,.45,.94);-o-transition:all .3s cubic-bezier(0.25,.46,.45,.94);-webkit-transition:all .3s cubic-bezier(0.25,.46,.45,.94);transition:all .3s cubic-bezier(0.25,.46,.45,.94)}.no-csstransforms .show-nav .nav-main{display:table;width:100%!important;height:100%!important}.nav-main-wrapper-table{display:table-cell;vertical-align:middle}.nav-main-logo{color:rgba(77,77,77,.6);opacity:.8;text-decoration:none;font-size:2.05817em;line-height:1.17923em;display:block}.no-touchevents .nav-main-logo:hover{opacity:1}.nav-main-logo span.sous-titre{display:block;font-size:.3em;font-style:normal;line-height:.3em}.nav-main-links{display:inline-block;position:relative;padding:.80902em 1.61803em;margin-top:.80902em;margin-bottom:.80902em}.nav-main-links:after,.nav-main-links:before{color:#c4b404!important}.nav-main-links a{color:#4d4d4d;text-decoration:none;font-size:1.27202em;line-height:1.27202em;line-height:1.61803em}.no-touchevents .nav-main-links a:hover{text-decoration:underline}.nav-main-lien-facebook{color:rgba(77,77,77,.6);text-decoration:none;font-size:1.10103em;line-height:1.46957em}.no-touchevents .nav-main-lien-facebook:hover{text-decoration:underline}.fixed-nav{position:fixed!important;top:0;right:0;background-color:#fff;z-index:100;padding:.80902em;display:inline-block}.btn-show-nav{background-color:transparent;border:0}.btn-show-nav .active{display:none}.show-nav .btn-show-nav .active{display:inline-block}.show-nav .btn-show-nav .inactive{display:none}.show-nav .btn-show-nav .icon-before:before{content:"x"!important}.btn-show-nav:after{color:#fbea33!important}.slick-slider{position:relative;display:block;-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;-ms-touch-action:none;touch-action:none;-webkit-tap-highlight-color:transparent}.slick-list{position:relative;overflow:hidden;display:block;margin:0;padding:0;padding-top:10%;margin-top:-10%}.slick-list:focus{outline:0}.no-touchevents .slick-next:hover:before,.no-touchevents .slick-prev:hover:before{color:#fff}.slick-next{position:absolute;top:3.23607em;right:0}.slick-next:before{content:">"}.slick-prev{position:absolute;top:6.47214em;right:0}.slick-prev:before{content:"<"}.slick-list.dragging{cursor:pointer;cursor:hand}.slick-slide,.slick-slide img,.slick-slider .slick-list,.slick-track{-webkit-transform:translate3d(0,0,0);-moz-transform:translate3d(0,0,0);-ms-transform:translate3d(0,0,0);-o-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}.slick-track{position:relative;left:0;top:0;display:block;zoom:1}.slick-track:after,.slick-track:before{content:"";display:table}.slick-track:after{clear:both}.slick-loading .slick-track{visibility:hidden}.slick-slide{float:left;height:100%;min-height:1px;display:none}.slick-slide img{display:block}.slick-slide.slick-loading img{display:none}.slick-slide.dragging img{pointer-events:none}.slick-initialized .slick-slide{display:block}.slick-loading .slick-slide{visibility:hidden}.slick-vertical .slick-slide{display:block;height:auto;border:1px solid transparent}.bloc-info.bloc-info-impair{background-image:url(../img/bg-pattern.gif);background-image:url(data:image/gif;base64,R0lGODlhDgAOAIAAAPb29v///yH5BAAAAAAALAAAAAAOAA4AAAITDIKpCL1voJy02nVqy5TfD4ZfAQA7);background-repeat:repeat;background-position:top left}.bloc-info-titre{text-align:center;width:95.83333%;float:left;margin-left:2.08333%;margin-right:2.08333%;margin-bottom:.80902em}.bloc-info-texte{width:95.83333%;float:left;margin-left:2.08333%;margin-right:2.08333%}.bloc-info-image{width:95.83333%;float:left;margin-left:2.08333%;margin-right:2.08333%;position:relative;z-index:2!important;margin-top:3.23607em}.bloc-info-image:before{content:"";position:absolute;display:block;z-index:-1;top:-2.5%;left:2.5%;width:95%;height:105%;background-color:#cccdcd;opacity:.5}.bloc-info-image-legende{position:absolute;top:-9%;right:3%;font-size:.78615em;line-height:2.05817em;color:#cccdcd}.bloc-info-impair .bloc-info-image-legende{left:3%}.bloc-info-citation{width:95.83333%;float:left;margin-left:2.08333%;margin-right:2.08333%;text-align:center;margin-top:-1.61803em;padding-left:8.33333%;padding-right:8.33333%}.bloc-info-citation p{padding:.80902em;font-size:1.61803em;line-height:1.5em;display:inline-block;margin-bottom:0;position:relative;z-index:50!important;color:#fff}.bloc-info-citation p:before{content:"";display:block;position:absolute;top:-5%;left:0;width:105%;height:105%;z-index:-2!important;-moz-transform-origin:center center;-ms-transform-origin:center center;-webkit-transform-origin:center center;transform-origin:center center;-moz-transform:rotate(-1deg);-ms-transform:rotate(-1deg);-webkit-transform:rotate(-1deg);transform:rotate(-1deg)}.bloc-info-citation p .btn{font-style:normal;font-size:.5em;margin-bottom:0;text-decoration:underline}.bloc-info-reservation{margin-top:3.23607em;width:79.16667%;float:left;margin-right:2.08333%;margin-left:10.41667%}.bloc-info-reservation-titre{font-size:1.61803em;line-height:1.5em;-webkit-font-smoothing:subpixel-antialiased;text-align:center;width:95.83333%;float:left;margin-left:2.08333%;margin-right:2.08333%;margin-bottom:.80902em}.bloc-info-reservation .footer-links-list a{color:#8b8c8e}.no-touchevents .bloc-info-reservation .footer-links-list a:hover{color:#c7d400}.bloc-info-liennext{clear:both;width:95.83333%;float:left;margin-left:2.08333%;margin-right:2.08333%;text-align:center;text-decoration:none;font-size:.78615em;line-height:2.05817em;color:#8b8c8e;-moz-transition:color .3s ease-out;-o-transition:color .3s ease-out;-webkit-transition:color .3s ease-out;transition:color .3s ease-out;margin-top:1.61803em;position:relative;font-weight:400!important}.no-touchevents .bloc-info-liennext:hover{color:#4d4d4d}.bloc-info-liennext span{position:relative;padding:0 .2em;display:inline-block;overflow:hidden;padding-top:.80902em}.bloc-info-liennext span:after{position:absolute;top:0!important;color:#f7f7f7!important;z-index:-1}.bloc-info-liennext span:before{content:"↓ ";font-size:2.05817em;line-height:1.17923em;font-family:pictos;font-style:normal!important;z-index:5}.header-home-lien-scrolldown{margin-top:0;margin-bottom:3.23607em;font-size:1em;line-height:1.61803em}.header-home-lien-scrolldown span:after{position:absolute!important;top:80%!important;color:#fbea33!important}.theme-jaune .bloc-info-reservation-titre span:before,.theme-jaune .bloc-info-titre span:before{color:#fbea33!important}.theme-jaune .bloc-info-citation p:before,.theme-jaune .bloc-info-image:before{background-color:#fbea33}.theme-jaune .btn{border-color:#fbea33!important}.no-touchevents .theme-jaune .btn:hover,.no-touchevents .theme-jaune .slick-next:hover,.no-touchevents .theme-jaune .slick-prev:hover{background-color:#fbea33}.theme-vert .bloc-info-reservation-titre span:before,.theme-vert .bloc-info-titre span:before{color:#c7d400!important}.theme-vert .bloc-info-citation p:before,.theme-vert .bloc-info-image:before{background-color:#c7d400}.theme-vert .btn{border-color:#c7d400!important}.no-touchevents .theme-vert .btn:hover,.no-touchevents .theme-vert .slick-next:hover,.no-touchevents .theme-vert .slick-prev:hover{background-color:#c7d400}.theme-violet .bloc-info-reservation-titre span:before,.theme-violet .bloc-info-titre span:before{color:#754366!important}.theme-violet .bloc-info-citation p:before,.theme-violet .bloc-info-image:before{background-color:#754366}.theme-violet .btn{border-color:#754366!important}.no-touchevents .theme-violet .btn:hover,.no-touchevents .theme-violet .slick-next:hover,.no-touchevents .theme-violet .slick-prev:hover{background-color:#754366}.theme-light-yellow .bloc-info-reservation-titre span:before,.theme-light-yellow .bloc-info-titre span:before{color:#e7ff1d!important}.theme-light-yellow .bloc-info-citation p:before,.theme-light-yellow .bloc-info-image:before{background-color:#e7ff1d}.theme-light-yellow .btn{border-color:#e7ff1d!important}.no-touchevents .theme-light-yellow .btn:hover,.no-touchevents .theme-light-yellow .slick-next:hover,.no-touchevents .theme-light-yellow .slick-prev:hover{background-color:#e7ff1d}.theme-rouge .bloc-info-reservation-titre span:before,.theme-rouge .bloc-info-titre span:before{color:#a61223!important}.theme-rouge .bloc-info-citation p:before,.theme-rouge .bloc-info-image:before{background-color:#a61223}.theme-rouge .btn{border-color:#a61223!important}.no-touchevents .theme-rouge .btn:hover,.no-touchevents .theme-rouge .slick-next:hover,.no-touchevents .theme-rouge .slick-prev:hover{background-color:#a61223}.theme-jonquille .bloc-info-reservation-titre span:before,.theme-jonquille .bloc-info-titre span:before{color:#fd0!important}.theme-jonquille .bloc-info-citation p:before,.theme-jonquille .bloc-info-image:before{background-color:#fd0}.theme-jonquille .btn{border-color:#fd0!important}.no-touchevents .theme-jonquille .btn:hover,.no-touchevents .theme-jonquille .slick-next:hover,.no-touchevents .theme-jonquille .slick-prev:hover{background-color:#fd0}.theme-bleu .bloc-info-reservation-titre span:before,.theme-bleu .bloc-info-titre span:before{color:#33a7ff!important}.theme-bleu .bloc-info-citation p:before,.theme-bleu .bloc-info-image:before{background-color:#33a7ff}.theme-bleu .btn{border-color:#33a7ff!important}.no-touchevents .theme-bleu .btn:hover,.no-touchevents .theme-bleu .slick-next:hover,.no-touchevents .theme-bleu .slick-prev:hover{background-color:#33a7ff}.theme-moutarde .bloc-info-reservation-titre span:before,.theme-moutarde .bloc-info-titre span:before{color:#eee15c!important}.theme-moutarde .bloc-info-citation p:before,.theme-moutarde .bloc-info-image:before{background-color:#eee15c}.theme-moutarde .btn{border-color:#eee15c!important}.no-touchevents .theme-moutarde .btn:hover,.no-touchevents .theme-moutarde .slick-next:hover,.no-touchevents .theme-moutarde .slick-prev:hover{background-color:#eee15c}.theme-jaune .bloc-info-citation p{color:#9c8f03}.theme-light-yellow .bloc-info-citation p{color:#7e8d00}.theme-jonquille .bloc-info-citation p{color:#706100}.test-container{border:1px solid red;max-width:64em;margin-left:auto;margin-right:auto}.test-container:after{content:" ";display:block;clear:both}.test-col1{background-color:green;width:95.83333%;float:left;margin-left:2.08333%;margin-right:2.08333%}.test-col2{background-color:red;width:95.83333%;float:left;margin-left:2.08333%;margin-right:2.08333%}@media only screen and (-webkit-min-device-pixel-ratio:2),only screen and (min-resolution:192dpi),only screen and (min-resolution:2dppx){.bloc-info.bloc-info-impair{background-image:url(data:image/gif;base64,R0lGODlhDgAOAIAAAPb29v///yH5BAAAAAAALAAAAAAOAA4AAAITDIKpCL1voJy02nVqy5TfD4ZfAQA7);background-size:14px 14px}}@media (min-width:30em){.nav-main-links a{font-size:1.61803em;line-height:1.5em;line-height:1.61803em}.bloc-info-texte{width:79.16667%;float:left;margin-right:2.08333%;margin-left:10.41667%}.bloc-info-image{width:95.83333%;float:left;margin-left:2.08333%;margin-right:2.08333%}}@media (min-width:37.5em){.bloc-info-titre,.titre-med{font-size:4.23607em;line-height:1.1459em}.footer-titre,.header-pages-titre,.titre-large{font-size:6.8541em;line-height:1.06231em}.footer-image{width:45.83333%;float:left;margin-left:2.08333%;margin-right:2.08333%;margin-top:-3.23607em}.footer-contacts{width:45.83333%;float:right;margin-left:2.08333%;margin-right:2.08333%;margin-top:1.61803em}.footer-logo-gites{margin-left:-200px}.footer-links-infos{width:29.16667%;float:right;margin-left:2.08333%;margin-right:2.08333%}.footer-links-partenaires{width:62.5%;float:left;margin-left:2.08333%;margin-right:2.08333%}.footer-links-partenaires ul{-moz-columns:3em 2;-webkit-columns:3em 2;columns:3em 2}.footer-copyright,.footer-signature{margin-top:1.61803em}.footer-copyright{width:62.5%;float:left;margin-left:2.08333%;margin-right:2.08333%;text-align:left}.nav-main-logo{font-size:4.23607em;line-height:1.1459em}.nav-main-links{margin-top:1.61803em;margin-bottom:1.61803em}.nav-main-lien-facebook{font-size:1.27202em;line-height:1.27202em}.slick-list{padding-top:5%;margin-top:-5%}.test-col1{width:45.83333%;float:left;margin-left:2.08333%;margin-right:2.08333%}.test-col2{width:45.83333%;float:right;margin-left:2.08333%;margin-right:2.08333%}}@media (min-width:48em){.wrapper-band{margin:4.8541em auto}.header-pages-image0{width:37.5%;float:right;margin-left:2.08333%;margin-right:2.08333%}.header-pages-image1{width:37.5%;float:right;margin-left:2.08333%;margin-right:2.08333%;margin-top:3.23607em}.header-pages-titre{text-align:left;width:79.16667%;float:left;margin-left:2.08333%;margin-right:2.08333%;margin-top:-2.26525em}.header-home-sous-titre{font-size:1.61803em;line-height:1.5em}.wrapper-sous-titre{margin-top:-1.61803em}.header-pages-subnav{margin-top:-3.23607em}.footer-image{width:37.5%;float:left;margin-right:2.08333%;margin-left:10.41667%}.footer-contacts{width:45.83333%;float:right;margin-left:2.08333%;margin-right:2.08333%}.footer-logo-gites{margin-left:0}.fixed-nav{right:2em}.bloc-info-titre{margin-bottom:1.61803em}.bloc-info-citation{padding-left:25%;padding-right:25%}.bloc-info-citation p{font-size:2.05817em;line-height:1.17923em;font-weight:400}.bloc-info-reservation{width:45.83333%;float:left;margin-right:2.08333%;margin-left:27.08333%}.bloc-info-reservation .footer-links-list{border:1px solid transparent;-moz-columns:2em 2;-webkit-columns:2em 2;columns:2em 2}}@media (min-width:62em){.slick-next{right:-1.5em}.bloc-info-impair .slick-next{position:absolute;top:3.23607em;left:-1.5em}.slick-prev{right:-1.5em}.bloc-info-impair .slick-prev{position:absolute;top:6.47214em;left:-1.5em}.bloc-info-texte{width:29.16667%;float:left;margin-left:2.08333%;margin-right:2.08333%;margin-top:1.61803em}.bloc-info-impair .bloc-info-texte{width:29.16667%;float:right;margin-left:2.08333%;margin-right:2.08333%}.page-tarifs .bloc-info-impair .bloc-info-texte{width:37.5%;float:right;margin-left:2.08333%;margin-right:2.08333%}.page-chambres .bloc-info-impair .bloc-info-texte{width:20.83333%;float:right;margin-left:2.08333%;margin-right:2.08333%}.page-tarifs .bloc-info-texte{margin-left:10.41667%}.page-chambres .bloc-info-texte{width:20.83333%;float:left;margin-left:2.08333%;margin-right:2.08333%}.bloc-info-image{width:62.5%;float:left;margin-left:2.08333%;margin-right:2.08333%;margin-top:-1.61803em}.bloc-info-impair .bloc-info-image{width:62.5%;float:left;margin-left:2.08333%;margin-right:2.08333%}.page-tarifs .bloc-info-impair .bloc-info-image{width:45.83333%;float:left;margin-right:2.08333%;margin-left:10.41667%}.page-chambres .bloc-info-impair .bloc-info-image{width:70.83333%;float:left;margin-left:2.08333%;margin-right:2.08333%}.page-tarifs .bloc-info-image{width:45.83333%;float:left;margin-left:2.08333%;margin-right:2.08333%;margin-right:10.41667%}.page-chambres .bloc-info-image{width:70.83333%;float:right;margin-left:2.08333%;margin-right:2.08333%}}@-moz-keyframes fadein{0%{opacity:0;-webkit-transform:translateX(100%)}100%{opacity:1;-webkit-transform:translateX(0)}}@-webkit-keyframes fadein{0%{opacity:0;-webkit-transform:translateX(100%)}100%{opacity:1;-webkit-transform:translateX(0)}}@keyframes fadein{0%{opacity:0;-webkit-transform:translateX(100%)}100%{opacity:1;-webkit-transform:translateX(0)}}@-moz-keyframes fadeout{0%{opacity:0;-webkit-transform:translateX(0)}100%{opacity:1;-webkit-transform:translateX(100%)}}@-webkit-keyframes fadeout{0%{opacity:0;-webkit-transform:translateX(0)}100%{opacity:1;-webkit-transform:translateX(100%)}}@keyframes fadeout{0%{opacity:0;-webkit-transform:translateX(0)}100%{opacity:1;-webkit-transform:translateX(100%)}}@-moz-keyframes dots{0%{opacity:0}50%{opacity:1}100%{opacity:0}}@-webkit-keyframes dots{0%{opacity:0}50%{opacity:1}100%{opacity:0}}@keyframes dots{0%{opacity:0}50%{opacity:1}100%{opacity:0}}
+	    </style> <!--<![endif]-->
+<!--[if lt IE 9]><script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js"></script><![endif]-->
+<meta name="msapplication-square70x70logo" content="../assets/img/icons/windows-tile-70x70.png">
+<meta name="msapplication-square150x150logo" content="../assets/img/icons/windows-tile-150x150.png">
+<meta name="msapplication-square310x310logo" content="../assets/img/icons/windows-tile-310x310.png">
+<meta name="msapplication-TileImage" content="../assets/img/icons/windows-tile-144x144.png">
+<meta name="msapplication-TileColor" content="#c7d400">
+<link rel="apple-touch-icon-precomposed" sizes="152x152" href="../assets/img/icons/apple-touch-icon-152x152-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="120x120" href="../assets/img/icons/apple-touch-icon-120x120-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="76x76" href="../assets/img/icons/apple-touch-icon-76x76-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="60x60" href="../assets/img/icons/apple-touch-icon-60x60-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/img/icons/apple-touch-icon-144x144-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/img/icons/apple-touch-icon-114x114-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/img/icons/apple-touch-icon-72x72-precomposed.png">
+<link rel="apple-touch-icon" sizes="57x57" href="../assets/img/icons/apple-touch-icon.png">
+<link rel="icon" sizes="228x228" href="../assets/img/icons/coast-icon-228x228.png">
+<link rel="shortcut icon" href="../assets/img/icons/favicon.ico">
+<link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAMAAACdt4HsAAAAGFBMVEUAAABLS0tGRkZJSUlLS0tKSkpKSkpMTEyVCkznAAAAB3RSTlMA5xg+wpVowzVHqAAAAh1JREFUeNqlV9ESwjAIEwL0//9Yr7eBVGt6J49uySCEUh8tNAKPf8LHkH8YIGMM0+1zBZQTjNg8dJNXWPzgUBu7FOCTPJ9vAuN7CuoyKvyxj+8phI0WoClsPi8ihyl0/F17QDWYCvMFQRN2hoRmo4Q2wj/whm4VkoJpx4vru0jGzYSOL1WdiJivNDyWiiYfkVFLf0FrM503zRoSX+ElAa8hGn6dNt4HSNevDxvtg4R9utrbT8RLl+u1MVcCXIQZ1vGlCRchBVxN7YdHY1ariFdAYS0nJkJ+LO5hlDZTRyKYphy9Jh7ZQUgn8DN87BIoW3EJiqBHHCcwBzIKKXKag0od3uo33AFL3kMfYq5rExFz1PHg1EW9XH1FHxI9HYTYLl+egGxyPT1SZfci6DioTGhsCDT3EtlsnWD1GPhi+yTQOda4CFgCK4HCTcqOoMu9Eyi/X6x9LoKCVwj4ZvY0DBJeBMokfCMISZi5R242ttltEhReLKDpRFZBtvvGi6N94XcPvAyHPInbblay18vytmw3bGasXx40a4kFr3bUxJradZdfhOxiUe1cFAuymy9Y5AWhKZYdDXIUCLKW1nN1vprqEmvLoVKG9m0B1bu0y20r1bCReEpwiZk2EjMZhecEeSxOUTPyuk4J7gSw7nbD4X++KL+GFDz0cKna+1UMLjJPAuj5vaTbRQEoQ5fXidws1BmeM8yK93bngYiuF48nX10gsvxh68MAAAAASUVORK5CYII="/>
 </head>
-
 <body class="page-chambres">
-	
-  	
-
-
 <div class="fixed-nav">
-  
-
- 
-
-  
-    <button class="btn-show-nav">
-      <span class="icon-before" data-icon="m"></span>
-      <span class="active">Fermer le menu</span>
-      <span class="inactive">Menu</span>
-    </button>
-
+<button class="btn-show-nav">
+<span class="icon-before" data-icon="m"></span>
+<span class="active">Fermer le menu</span>
+<span class="inactive">Menu</span>
+</button>
 </div>
-
-
 <nav class="nav-main">
-    
-    <div class="nav-main-wrapper-table">
-        
-        <a href="http://labartette.fr" class="nav-main-logo" target="_self" title="revenir à l'accueil">
-        La Bartette
-          <span class="sous-titre">Chambres et table d’hôtes</span>
-        </a>
-       
-
-        
-        <ul class="nav-main-links">
-          <a href="http://labartette.fr/chambres" target="_self" title="Chambres">Chambres</a> <br>
-          <a href="http://labartette.fr/tarifs" target="_self" title="Tarifs">Tarifs</a> <br>
-          <a href="http://labartette.fr/activites" target="_self" title="Activites">Activités</a> <br>
-          <a class="contacts" href="#contacts" target="_self" title="Contacts">Contacts</a>
-        </ul> <br>
-        
-        
-        <a href="https://fr-fr.facebook.com/pages/Chambres-dh%C3%B4tes-La-Bartette/297029570330068"
-          class="nav-main-lien-facebook"
-          target="_blank"
-          title="Retrouvez-nous sur Facebook">
-          Retrouvez-nous sur Facebook
-        </a>
-      </div>
-
+<div class="nav-main-wrapper-table">
+<a href="http://labartette.fr" class="nav-main-logo" target="_self" title="revenir à l'accueil">
+La Bartette
+<span class="sous-titre">Chambres et table d’hôtes</span>
+</a>
+<ul class="nav-main-links">
+<a href="http://labartette.fr/chambres" target="_self" title="Chambres">Chambres</a> <br>
+<a href="http://labartette.fr/tarifs" target="_self" title="Tarifs">Tarifs</a> <br>
+<a href="http://labartette.fr/activites" target="_self" title="Activites">Activités</a> <br>
+<a class="contacts" href="#contacts" target="_self" title="Contacts">Contacts</a>
+</ul> <br>
+<a href="https://fr-fr.facebook.com/pages/Chambres-dh%C3%B4tes-La-Bartette/297029570330068"
+class="nav-main-lien-facebook"
+target="_blank"
+title="Retrouvez-nous sur Facebook">
+Retrouvez-nous sur Facebook
+</a>
+</div>
 </nav>
-
-
-	
-	
-
-	
-
 <header class="header-pages theme-rose" role="banner">
-	
+<figure class="responsive-image header-pages-image0">
 
+<div class="responsive-image-wrapper loading" data-alt="detail chambre coquelicot" style="padding-bottom: 100%">
+<span class="responsive-image-spinner dots"></span>
+<span data-src="../assets/img/chambres-header1-mobile.jpg"></span>
+<span data-src="../assets/img/chambres-header1-desktop.jpg" data-media="(min-width: 600px)"></span>
+<span data-src="../assets/img/chambres-header1-desktop_x2.jpg" data-media="(min-width: 600px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 600px) and ( min-resolution: 192dpi)"></span>
+<!--[if (lte IE 9) & (!IEMobile)]><span data-src="../assets/img/chambres-header1-desktop.jpg"></span><![endif]-->
 
-	
-	
-		<figure class="responsive-image header-pages-image0" >
-			<!-- wrapper image -->
-		   <div class="responsive-image-wrapper loading"  data-alt="detail chambre coquelicot" style="padding-bottom: 100%" >
-		   <span class="responsive-image-spinner dots"></span>
+<noscript>
+<img src="../assets/img/chambres-header1-desktop.jpg" alt="detail chambre coquelicot">
+</noscript>
+</div>
+</figure>
+<figure class="responsive-image header-pages-image1">
 
-				<span data-src="../assets/img/chambres-header1-mobile.jpg"></span>
-				<span data-src="../assets/img/chambres-header1-desktop.jpg"  		data-media="(min-width: 600px)"></span>
-				<span data-src="../assets/img/chambres-header1-desktop_x2.jpg"     data-media="(min-width: 600px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 600px) and ( min-resolution: 192dpi)"></span>
+<div class="responsive-image-wrapper loading" data-alt="salon chambre coquelicot" style="padding-bottom: 100%">
+<span class="responsive-image-spinner dots"></span>
+<span data-src="../assets/img/chambres-header0-mobile.jpg"></span>
+<span data-src="../assets/img/chambres-header0-desktop.jpg" data-media="(min-width: 600px)"></span>
+<span data-src="../assets/img/chambres-header0-desktop_x2.jpg" data-media="(min-width: 600px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 600px) and ( min-resolution: 192dpi)"></span>
+<!--[if (lte IE 9) & (!IEMobile)]><span data-src="../assets/img/chambres-header0-desktop.jpg"></span><![endif]-->
 
-		       <!--[if (lte IE 9) & (!IEMobile)]>
-		           <span data-src="../assets/img/chambres-header1-desktop.jpg"></span>
-		       <![endif]-->
-
-		       <!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
-		       <noscript>
-		         <img src="../assets/img/chambres-header1-desktop.jpg" alt="detail chambre coquelicot">
-		       </noscript>
-		   </div>
-		</figure> 	
-	
-		<figure class="responsive-image header-pages-image1" >
-			<!-- wrapper image -->
-		   <div class="responsive-image-wrapper loading"  data-alt="salon chambre coquelicot" style="padding-bottom: 100%" >
-		   <span class="responsive-image-spinner dots"></span>
-
-				<span data-src="../assets/img/chambres-header0-mobile.jpg"></span>
-				<span data-src="../assets/img/chambres-header0-desktop.jpg"  		data-media="(min-width: 600px)"></span>
-				<span data-src="../assets/img/chambres-header0-desktop_x2.jpg"     data-media="(min-width: 600px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 600px) and ( min-resolution: 192dpi)"></span>
-
-		       <!--[if (lte IE 9) & (!IEMobile)]>
-		           <span data-src="../assets/img/chambres-header0-desktop.jpg"></span>
-		       <![endif]-->
-
-		       <!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
-		       <noscript>
-		         <img src="../assets/img/chambres-header0-desktop.jpg" alt="salon chambre coquelicot">
-		       </noscript>
-		   </div>
-		</figure> 	
-	
-
-	
-	<h1 class="header-pages-titre"><span>Chambres</span></h1>
-
-
-	
-	
-		
-		<nav class="header-pages-subnav" role="navigation">
-			<ul>
-				
-				<li> <a href="#colchique" target="_self" title="Colchique">Colchique</a></li> <br>
-				
-				<li> <a href="#perceneige" target="_self" title="Perce neige">Perce neige</a></li> <br>
-				
-				<li> <a href="#coquelicot" target="_self" title="Coquelicot">Coquelicot</a></li> <br>
-				
-				<li> <a href="#jonquille" target="_self" title="Jonquille">Jonquille</a></li> <br>
-				
-
-			</ul>
-		</nav>
-	
-
-	
-
-
-
-
-
+<noscript>
+<img src="../assets/img/chambres-header0-desktop.jpg" alt="salon chambre coquelicot">
+</noscript>
+</div>
+</figure>
+<h1 class="header-pages-titre"><span>Chambres</span></h1>
+<nav class="header-pages-subnav" role="navigation">
+<ul>
+<li> <a href="#colchique" target="_self" title="Colchique">Colchique</a></li> <br>
+<li> <a href="#perceneige" target="_self" title="Perce neige">Perce neige</a></li> <br>
+<li> <a href="#coquelicot" target="_self" title="Coquelicot">Coquelicot</a></li> <br>
+<li> <a href="#jonquille" target="_self" title="Jonquille">Jonquille</a></li> <br>
+</ul>
+</nav>
 </header>
-
-	
-  	
-
-
-
-
-
-<section id="colchique"  class="bloc-info theme-violet bloc-info-impair">
-	<div class="wrapper-band">
-		
-		
-		<h2 class="bloc-info-titre"><span>Colchique</span></h2>
-
-
-		
-		<div class="bloc-info-texte">
-		<p>2 lits en 90cm.<br>Salle d’eau et wc dans la chambre.</p>
+<section id="colchique" class="bloc-info theme-violet bloc-info-impair">
+<div class="wrapper-band">
+<h2 class="bloc-info-titre"><span>Colchique</span></h2>
+<div class="bloc-info-texte">
+<p>2 lits en 90cm.<br>Salle d’eau et wc dans la chambre.</p>
 <p>La chambre dispose de son coin salon.</p>
 <p><em>Possibilité de séparer les lits sur demande à la réservation.</em></p>
+</div>
+<div class="slider bloc-info-image">
+<div class="slider-slide">
+<p class="bloc-info-image-legende">Chambre</p>
+<figure class="responsive-image">
 
+<div class="responsive-image-wrapper loading " data-alt="Chambre" style="padding-bottom: 66%">
+<span class="responsive-image-spinner dots"></span>
+<span data-src="../assets/img/chambres-colchique1-mobile.jpg"></span>
+<span data-src="../assets/img/chambres-colchique1-desktop.jpg" data-media="(min-width: 600px)"></span>
+<span data-src="../assets/img/chambres-colchique1-desktop_x2.jpg" data-media="(min-width: 600px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 600px) and ( min-resolution: 192dpi)"></span>
+<!--[if (lte IE 9) & (!IEMobile)]><span data-src="../assets/img/chambres-colchique1-desktop.jpg"></span><![endif]-->
 
-		 
-		</div>
+<noscript>
+<img src="../assets/img/chambres-colchique1-desktop.jpg" alt="Chambre">
+</noscript>
+</div>
+</figure>
+</div>
+<div class="slider-slide">
+<p class="bloc-info-image-legende">Salon privé</p>
+<figure class="responsive-image">
 
+<div class="responsive-image-wrapper loading delayed" data-alt="Salon privé" style="padding-bottom: 66%">
+<span class="responsive-image-spinner dots"></span>
+<span data-src="../assets/img/chambres-colchique2-mobile.jpg"></span>
+<span data-src="../assets/img/chambres-colchique2-desktop.jpg" data-media="(min-width: 600px)"></span>
+<span data-src="../assets/img/chambres-colchique2-desktop_x2.jpg" data-media="(min-width: 600px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 600px) and ( min-resolution: 192dpi)"></span>
+<!--[if (lte IE 9) & (!IEMobile)]><span data-src="../assets/img/chambres-colchique2-desktop.jpg"></span><![endif]-->
 
-		
-		
-		
+<noscript>
+<img src="../assets/img/chambres-colchique2-desktop.jpg" alt="Salon privé">
+</noscript>
+</div>
+</figure>
+</div>
+<div class="slider-slide">
+<p class="bloc-info-image-legende">Salle de bain</p>
+<figure class="responsive-image">
 
-			
-			
-			
-				<div class="slider bloc-info-image">
+<div class="responsive-image-wrapper loading delayed" data-alt="Salle de bain" style="padding-bottom: 66%">
+<span class="responsive-image-spinner dots"></span>
+<span data-src="../assets/img/chambres-colchique3-mobile.jpg"></span>
+<span data-src="../assets/img/chambres-colchique3-desktop.jpg" data-media="(min-width: 600px)"></span>
+<span data-src="../assets/img/chambres-colchique3-desktop_x2.jpg" data-media="(min-width: 600px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 600px) and ( min-resolution: 192dpi)"></span>
+<!--[if (lte IE 9) & (!IEMobile)]><span data-src="../assets/img/chambres-colchique3-desktop.jpg"></span><![endif]-->
 
-				
-					<div class="slider-slide">
-					
-					
-						<p class="bloc-info-image-legende">Chambre</p>
-					
-
-						<figure class="responsive-image" >
-							<!-- wrapper image -->
-						    <div class="responsive-image-wrapper loading "  data-alt="Chambre" style="padding-bottom: 66%" >
-						    <span class="responsive-image-spinner dots"></span>
-
-						    	
-						      <span data-src="../assets/img/chambres-colchique1-mobile.jpg"></span>
-						      <span data-src="../assets/img/chambres-colchique1-desktop.jpg"  		data-media="(min-width: 600px)"></span>
-						      <span data-src="../assets/img/chambres-colchique1-desktop_x2.jpg"     data-media="(min-width: 600px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 600px) and ( min-resolution: 192dpi)"></span>
-
-						        <!--[if (lte IE 9) & (!IEMobile)]>
-						            <span data-src="../assets/img/chambres-colchique1-desktop.jpg"></span>
-						        <![endif]-->
-
-						        <!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
-						        <noscript>
-						          <img src="../assets/img/chambres-colchique1-desktop.jpg" alt="Chambre">
-						        </noscript>
-						    </div>
-						</figure> 
-					</div>
-				
-					<div class="slider-slide">
-					
-					
-						<p class="bloc-info-image-legende">Salon privé</p>
-					
-
-						<figure class="responsive-image" >
-							<!-- wrapper image -->
-						    <div class="responsive-image-wrapper loading delayed"  data-alt="Salon privé" style="padding-bottom: 66%" >
-						    <span class="responsive-image-spinner dots"></span>
-
-						    	
-						      <span data-src="../assets/img/chambres-colchique2-mobile.jpg"></span>
-						      <span data-src="../assets/img/chambres-colchique2-desktop.jpg"  		data-media="(min-width: 600px)"></span>
-						      <span data-src="../assets/img/chambres-colchique2-desktop_x2.jpg"     data-media="(min-width: 600px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 600px) and ( min-resolution: 192dpi)"></span>
-
-						        <!--[if (lte IE 9) & (!IEMobile)]>
-						            <span data-src="../assets/img/chambres-colchique2-desktop.jpg"></span>
-						        <![endif]-->
-
-						        <!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
-						        <noscript>
-						          <img src="../assets/img/chambres-colchique2-desktop.jpg" alt="Salon privé">
-						        </noscript>
-						    </div>
-						</figure> 
-					</div>
-				
-					<div class="slider-slide">
-					
-					
-						<p class="bloc-info-image-legende">Salle de bain</p>
-					
-
-						<figure class="responsive-image" >
-							<!-- wrapper image -->
-						    <div class="responsive-image-wrapper loading delayed"  data-alt="Salle de bain" style="padding-bottom: 66%" >
-						    <span class="responsive-image-spinner dots"></span>
-
-						    	
-						      <span data-src="../assets/img/chambres-colchique3-mobile.jpg"></span>
-						      <span data-src="../assets/img/chambres-colchique3-desktop.jpg"  		data-media="(min-width: 600px)"></span>
-						      <span data-src="../assets/img/chambres-colchique3-desktop_x2.jpg"     data-media="(min-width: 600px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 600px) and ( min-resolution: 192dpi)"></span>
-
-						        <!--[if (lte IE 9) & (!IEMobile)]>
-						            <span data-src="../assets/img/chambres-colchique3-desktop.jpg"></span>
-						        <![endif]-->
-
-						        <!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
-						        <noscript>
-						          <img src="../assets/img/chambres-colchique3-desktop.jpg" alt="Salle de bain">
-						        </noscript>
-						    </div>
-						</figure> 
-					</div>
-				
-				</div> 
-
-
-			
-			
-		 
-		
-			
-		
-		 
-		
-
-		
-		
-		<blockquote class="bloc-info-citation">
-			<p>Chambre colchique
-			
-				
-			</p>
-
-		</blockquote>
-		 
-		
-		
-		
-		<a class="bloc-info-liennext" href="#perceneige" target="_self" title="chambre Perce neige">
-			<span>chambre Perce neige</span>
-		</a>
-		
-
-	</div>
+<noscript>
+<img src="../assets/img/chambres-colchique3-desktop.jpg" alt="Salle de bain">
+</noscript>
+</div>
+</figure>
+</div>
+</div>
+<blockquote class="bloc-info-citation">
+<p>Chambre colchique
+</p>
+</blockquote>
+<a class="bloc-info-liennext" href="#perceneige" target="_self" title="chambre Perce neige">
+<span>chambre Perce neige</span>
+</a>
+</div>
 </section>
-
-
-
-
-<section id="perceneige"  class="bloc-info theme-light-yellow ">
-	<div class="wrapper-band">
-		
-		
-		<h2 class="bloc-info-titre"><span>Perce neige</span></h2>
-
-
-		
-		<div class="bloc-info-texte">
-		<p>2 lits en 90cm.<br>Salle de bain et wc dans la chambre.</p>
+<section id="perceneige" class="bloc-info theme-light-yellow ">
+<div class="wrapper-band">
+<h2 class="bloc-info-titre"><span>Perce neige</span></h2>
+<div class="bloc-info-texte">
+<p>2 lits en 90cm.<br>Salle de bain et wc dans la chambre.</p>
 <p><em>Possibilité de séparer les lits sur demande à la réservation.</em></p>
+</div>
+<div class="slider bloc-info-image">
+<div class="slider-slide">
+<p class="bloc-info-image-legende">Chambre</p>
+<figure class="responsive-image">
 
+<div class="responsive-image-wrapper loading " data-alt="Chambre" style="padding-bottom: 66%">
+<span class="responsive-image-spinner dots"></span>
+<span data-src="../assets/img/chambres-perceneige1-mobile.jpg"></span>
+<span data-src="../assets/img/chambres-perceneige1-desktop.jpg" data-media="(min-width: 600px)"></span>
+<span data-src="../assets/img/chambres-perceneige1-desktop_x2.jpg" data-media="(min-width: 600px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 600px) and ( min-resolution: 192dpi)"></span>
+<!--[if (lte IE 9) & (!IEMobile)]><span data-src="../assets/img/chambres-perceneige1-desktop.jpg"></span><![endif]-->
 
-		 
-		</div>
+<noscript>
+<img src="../assets/img/chambres-perceneige1-desktop.jpg" alt="Chambre">
+</noscript>
+</div>
+</figure>
+</div>
+<div class="slider-slide">
+<p class="bloc-info-image-legende">Chambre</p>
+<figure class="responsive-image">
 
+<div class="responsive-image-wrapper loading delayed" data-alt="Chambre" style="padding-bottom: 66%">
+<span class="responsive-image-spinner dots"></span>
+<span data-src="../assets/img/chambres-perceneige2-mobile.jpg"></span>
+<span data-src="../assets/img/chambres-perceneige2-desktop.jpg" data-media="(min-width: 600px)"></span>
+<span data-src="../assets/img/chambres-perceneige2-desktop_x2.jpg" data-media="(min-width: 600px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 600px) and ( min-resolution: 192dpi)"></span>
+<!--[if (lte IE 9) & (!IEMobile)]><span data-src="../assets/img/chambres-perceneige2-desktop.jpg"></span><![endif]-->
 
-		
-		
-		
+<noscript>
+<img src="../assets/img/chambres-perceneige2-desktop.jpg" alt="Chambre">
+</noscript>
+</div>
+</figure>
+</div>
+<div class="slider-slide">
+<p class="bloc-info-image-legende">Salle de bain</p>
+<figure class="responsive-image">
 
-			
-			
-			
-				<div class="slider bloc-info-image">
+<div class="responsive-image-wrapper loading delayed" data-alt="Salle de bain" style="padding-bottom: 66%">
+<span class="responsive-image-spinner dots"></span>
+<span data-src="../assets/img/chambres-perceneige3-mobile.jpg"></span>
+<span data-src="../assets/img/chambres-perceneige3-desktop.jpg" data-media="(min-width: 600px)"></span>
+<span data-src="../assets/img/chambres-perceneige3-desktop_x2.jpg" data-media="(min-width: 600px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 600px) and ( min-resolution: 192dpi)"></span>
+<!--[if (lte IE 9) & (!IEMobile)]><span data-src="../assets/img/chambres-perceneige3-desktop.jpg"></span><![endif]-->
 
-				
-					<div class="slider-slide">
-					
-					
-						<p class="bloc-info-image-legende">Chambre</p>
-					
-
-						<figure class="responsive-image" >
-							<!-- wrapper image -->
-						    <div class="responsive-image-wrapper loading "  data-alt="Chambre" style="padding-bottom: 66%" >
-						    <span class="responsive-image-spinner dots"></span>
-
-						    	
-						      <span data-src="../assets/img/chambres-perceneige1-mobile.jpg"></span>
-						      <span data-src="../assets/img/chambres-perceneige1-desktop.jpg"  		data-media="(min-width: 600px)"></span>
-						      <span data-src="../assets/img/chambres-perceneige1-desktop_x2.jpg"     data-media="(min-width: 600px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 600px) and ( min-resolution: 192dpi)"></span>
-
-						        <!--[if (lte IE 9) & (!IEMobile)]>
-						            <span data-src="../assets/img/chambres-perceneige1-desktop.jpg"></span>
-						        <![endif]-->
-
-						        <!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
-						        <noscript>
-						          <img src="../assets/img/chambres-perceneige1-desktop.jpg" alt="Chambre">
-						        </noscript>
-						    </div>
-						</figure> 
-					</div>
-				
-					<div class="slider-slide">
-					
-					
-						<p class="bloc-info-image-legende">Chambre</p>
-					
-
-						<figure class="responsive-image" >
-							<!-- wrapper image -->
-						    <div class="responsive-image-wrapper loading delayed"  data-alt="Chambre" style="padding-bottom: 66%" >
-						    <span class="responsive-image-spinner dots"></span>
-
-						    	
-						      <span data-src="../assets/img/chambres-perceneige2-mobile.jpg"></span>
-						      <span data-src="../assets/img/chambres-perceneige2-desktop.jpg"  		data-media="(min-width: 600px)"></span>
-						      <span data-src="../assets/img/chambres-perceneige2-desktop_x2.jpg"     data-media="(min-width: 600px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 600px) and ( min-resolution: 192dpi)"></span>
-
-						        <!--[if (lte IE 9) & (!IEMobile)]>
-						            <span data-src="../assets/img/chambres-perceneige2-desktop.jpg"></span>
-						        <![endif]-->
-
-						        <!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
-						        <noscript>
-						          <img src="../assets/img/chambres-perceneige2-desktop.jpg" alt="Chambre">
-						        </noscript>
-						    </div>
-						</figure> 
-					</div>
-				
-					<div class="slider-slide">
-					
-					
-						<p class="bloc-info-image-legende">Salle de bain</p>
-					
-
-						<figure class="responsive-image" >
-							<!-- wrapper image -->
-						    <div class="responsive-image-wrapper loading delayed"  data-alt="Salle de bain" style="padding-bottom: 66%" >
-						    <span class="responsive-image-spinner dots"></span>
-
-						    	
-						      <span data-src="../assets/img/chambres-perceneige3-mobile.jpg"></span>
-						      <span data-src="../assets/img/chambres-perceneige3-desktop.jpg"  		data-media="(min-width: 600px)"></span>
-						      <span data-src="../assets/img/chambres-perceneige3-desktop_x2.jpg"     data-media="(min-width: 600px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 600px) and ( min-resolution: 192dpi)"></span>
-
-						        <!--[if (lte IE 9) & (!IEMobile)]>
-						            <span data-src="../assets/img/chambres-perceneige3-desktop.jpg"></span>
-						        <![endif]-->
-
-						        <!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
-						        <noscript>
-						          <img src="../assets/img/chambres-perceneige3-desktop.jpg" alt="Salle de bain">
-						        </noscript>
-						    </div>
-						</figure> 
-					</div>
-				
-				</div> 
-
-
-			
-			
-		 
-		
-			
-		
-		 
-		
-
-		
-		
-		<blockquote class="bloc-info-citation">
-			<p>Chambre Perce Neige
-			
-				
-			</p>
-
-		</blockquote>
-		 
-		
-		
-		
-		<a class="bloc-info-liennext" href="#coquelicot" target="_self" title="chambre Coquelicot">
-			<span>chambre Coquelicot</span>
-		</a>
-		
-
-	</div>
+<noscript>
+<img src="../assets/img/chambres-perceneige3-desktop.jpg" alt="Salle de bain">
+</noscript>
+</div>
+</figure>
+</div>
+</div>
+<blockquote class="bloc-info-citation">
+<p>Chambre Perce Neige
+</p>
+</blockquote>
+<a class="bloc-info-liennext" href="#coquelicot" target="_self" title="chambre Coquelicot">
+<span>chambre Coquelicot</span>
+</a>
+</div>
 </section>
-
-
-
-
-<section id="coquelicot"  class="bloc-info theme-rouge bloc-info-impair">
-	<div class="wrapper-band">
-		
-		
-		<h2 class="bloc-info-titre"><span>Coquelicot</span></h2>
-
-
-		
-		<div class="bloc-info-texte">
-		<p>Un lit en 140cm.<br>Salle d’eau et wc dans la chambre.</p>
+<section id="coquelicot" class="bloc-info theme-rouge bloc-info-impair">
+<div class="wrapper-band">
+<h2 class="bloc-info-titre"><span>Coquelicot</span></h2>
+<div class="bloc-info-texte">
+<p>Un lit en 140cm.<br>Salle d’eau et wc dans la chambre.</p>
 <p>La chambre dispose de son coin salon.</p>
+</div>
+<div class="slider bloc-info-image">
+<div class="slider-slide">
+<p class="bloc-info-image-legende">Chambre</p>
+<figure class="responsive-image">
 
+<div class="responsive-image-wrapper loading " data-alt="Chambre" style="padding-bottom: 66%">
+<span class="responsive-image-spinner dots"></span>
+<span data-src="../assets/img/chambres-coquelicot3-mobile.jpg"></span>
+<span data-src="../assets/img/chambres-coquelicot3-desktop.jpg" data-media="(min-width: 600px)"></span>
+<span data-src="../assets/img/chambres-coquelicot3-desktop_x2.jpg" data-media="(min-width: 600px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 600px) and ( min-resolution: 192dpi)"></span>
+<!--[if (lte IE 9) & (!IEMobile)]><span data-src="../assets/img/chambres-coquelicot3-desktop.jpg"></span><![endif]-->
 
-		 
-		</div>
+<noscript>
+<img src="../assets/img/chambres-coquelicot3-desktop.jpg" alt="Chambre">
+</noscript>
+</div>
+</figure>
+</div>
+<div class="slider-slide">
+<p class="bloc-info-image-legende">Salon</p>
+<figure class="responsive-image">
 
+<div class="responsive-image-wrapper loading delayed" data-alt="Salon" style="padding-bottom: 66%">
+<span class="responsive-image-spinner dots"></span>
+<span data-src="../assets/img/chambres-coquelicot1-mobile.jpg"></span>
+<span data-src="../assets/img/chambres-coquelicot1-desktop.jpg" data-media="(min-width: 600px)"></span>
+<span data-src="../assets/img/chambres-coquelicot1-desktop_x2.jpg" data-media="(min-width: 600px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 600px) and ( min-resolution: 192dpi)"></span>
+<!--[if (lte IE 9) & (!IEMobile)]><span data-src="../assets/img/chambres-coquelicot1-desktop.jpg"></span><![endif]-->
 
-		
-		
-		
+<noscript>
+<img src="../assets/img/chambres-coquelicot1-desktop.jpg" alt="Salon">
+</noscript>
+</div>
+</figure>
+</div>
+<div class="slider-slide">
+<p class="bloc-info-image-legende">Salon</p>
+<figure class="responsive-image">
 
-			
-			
-			
-				<div class="slider bloc-info-image">
+<div class="responsive-image-wrapper loading delayed" data-alt="Salon" style="padding-bottom: 66%">
+<span class="responsive-image-spinner dots"></span>
+<span data-src="../assets/img/chambres-coquelicot2-mobile.jpg"></span>
+<span data-src="../assets/img/chambres-coquelicot2-desktop.jpg" data-media="(min-width: 600px)"></span>
+<span data-src="../assets/img/chambres-coquelicot2-desktop_x2.jpg" data-media="(min-width: 600px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 600px) and ( min-resolution: 192dpi)"></span>
+<!--[if (lte IE 9) & (!IEMobile)]><span data-src="../assets/img/chambres-coquelicot2-desktop.jpg"></span><![endif]-->
 
-				
-					<div class="slider-slide">
-					
-					
-						<p class="bloc-info-image-legende">Chambre</p>
-					
-
-						<figure class="responsive-image" >
-							<!-- wrapper image -->
-						    <div class="responsive-image-wrapper loading "  data-alt="Chambre" style="padding-bottom: 66%" >
-						    <span class="responsive-image-spinner dots"></span>
-
-						    	
-						      <span data-src="../assets/img/chambres-coquelicot3-mobile.jpg"></span>
-						      <span data-src="../assets/img/chambres-coquelicot3-desktop.jpg"  		data-media="(min-width: 600px)"></span>
-						      <span data-src="../assets/img/chambres-coquelicot3-desktop_x2.jpg"     data-media="(min-width: 600px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 600px) and ( min-resolution: 192dpi)"></span>
-
-						        <!--[if (lte IE 9) & (!IEMobile)]>
-						            <span data-src="../assets/img/chambres-coquelicot3-desktop.jpg"></span>
-						        <![endif]-->
-
-						        <!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
-						        <noscript>
-						          <img src="../assets/img/chambres-coquelicot3-desktop.jpg" alt="Chambre">
-						        </noscript>
-						    </div>
-						</figure> 
-					</div>
-				
-					<div class="slider-slide">
-					
-					
-						<p class="bloc-info-image-legende">Salon</p>
-					
-
-						<figure class="responsive-image" >
-							<!-- wrapper image -->
-						    <div class="responsive-image-wrapper loading delayed"  data-alt="Salon" style="padding-bottom: 66%" >
-						    <span class="responsive-image-spinner dots"></span>
-
-						    	
-						      <span data-src="../assets/img/chambres-coquelicot1-mobile.jpg"></span>
-						      <span data-src="../assets/img/chambres-coquelicot1-desktop.jpg"  		data-media="(min-width: 600px)"></span>
-						      <span data-src="../assets/img/chambres-coquelicot1-desktop_x2.jpg"     data-media="(min-width: 600px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 600px) and ( min-resolution: 192dpi)"></span>
-
-						        <!--[if (lte IE 9) & (!IEMobile)]>
-						            <span data-src="../assets/img/chambres-coquelicot1-desktop.jpg"></span>
-						        <![endif]-->
-
-						        <!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
-						        <noscript>
-						          <img src="../assets/img/chambres-coquelicot1-desktop.jpg" alt="Salon">
-						        </noscript>
-						    </div>
-						</figure> 
-					</div>
-				
-					<div class="slider-slide">
-					
-					
-						<p class="bloc-info-image-legende">Salon</p>
-					
-
-						<figure class="responsive-image" >
-							<!-- wrapper image -->
-						    <div class="responsive-image-wrapper loading delayed"  data-alt="Salon" style="padding-bottom: 66%" >
-						    <span class="responsive-image-spinner dots"></span>
-
-						    	
-						      <span data-src="../assets/img/chambres-coquelicot2-mobile.jpg"></span>
-						      <span data-src="../assets/img/chambres-coquelicot2-desktop.jpg"  		data-media="(min-width: 600px)"></span>
-						      <span data-src="../assets/img/chambres-coquelicot2-desktop_x2.jpg"     data-media="(min-width: 600px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 600px) and ( min-resolution: 192dpi)"></span>
-
-						        <!--[if (lte IE 9) & (!IEMobile)]>
-						            <span data-src="../assets/img/chambres-coquelicot2-desktop.jpg"></span>
-						        <![endif]-->
-
-						        <!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
-						        <noscript>
-						          <img src="../assets/img/chambres-coquelicot2-desktop.jpg" alt="Salon">
-						        </noscript>
-						    </div>
-						</figure> 
-					</div>
-				
-				</div> 
-
-
-			
-			
-		 
-		
-			
-		
-		 
-		
-
-		
-		
-		<blockquote class="bloc-info-citation">
-			<p>Chambre coquelicot
-			
-				
-			</p>
-
-		</blockquote>
-		 
-		
-		
-		
-		<a class="bloc-info-liennext" href="#jonquille" target="_self" title="chambre Jonquille">
-			<span>chambre Jonquille</span>
-		</a>
-		
-
-	</div>
+<noscript>
+<img src="../assets/img/chambres-coquelicot2-desktop.jpg" alt="Salon">
+</noscript>
+</div>
+</figure>
+</div>
+</div>
+<blockquote class="bloc-info-citation">
+<p>Chambre coquelicot
+</p>
+</blockquote>
+<a class="bloc-info-liennext" href="#jonquille" target="_self" title="chambre Jonquille">
+<span>chambre Jonquille</span>
+</a>
+</div>
 </section>
-
-
-
-
-<section id="jonquille"  class="bloc-info theme-jonquille ">
-	<div class="wrapper-band">
-		
-		
-		<h2 class="bloc-info-titre"><span>Jonquille</span></h2>
-
-
-		
-		<div class="bloc-info-texte">
-		<p>Chambre Familiale située au deuxième étage de la maison,
+<section id="jonquille" class="bloc-info theme-jonquille ">
+<div class="wrapper-band">
+<h2 class="bloc-info-titre"><span>Jonquille</span></h2>
+<div class="bloc-info-texte">
+<p>Chambre Familiale située au deuxième étage de la maison,
 sous les toits avec vue sur Mont Alambre et pistes de ski.</p>
 <p>1 chambre avec lit en 160<br>1 chambre avec 1 lit en 90</p>
 <p>Salle de bain et wc séparés dans la chambre.</p>
+</div>
+<div class="slider bloc-info-image">
+<div class="slider-slide">
+<p class="bloc-info-image-legende">Chambre parentale</p>
+<figure class="responsive-image">
 
+<div class="responsive-image-wrapper loading " data-alt="Chambre parentale" style="padding-bottom: 66%">
+<span class="responsive-image-spinner dots"></span>
+<span data-src="../assets/img/chambres-jonquille1-mobile.jpg"></span>
+<span data-src="../assets/img/chambres-jonquille1-desktop.jpg" data-media="(min-width: 600px)"></span>
+<span data-src="../assets/img/chambres-jonquille1-desktop_x2.jpg" data-media="(min-width: 600px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 600px) and ( min-resolution: 192dpi)"></span>
+<!--[if (lte IE 9) & (!IEMobile)]><span data-src="../assets/img/chambres-jonquille1-desktop.jpg"></span><![endif]-->
 
-		 
-		</div>
+<noscript>
+<img src="../assets/img/chambres-jonquille1-desktop.jpg" alt="Chambre parentale">
+</noscript>
+</div>
+</figure>
+</div>
+<div class="slider-slide">
+<p class="bloc-info-image-legende">Chambre enfants</p>
+<figure class="responsive-image">
 
+<div class="responsive-image-wrapper loading delayed" data-alt="Chambre enfants" style="padding-bottom: 66%">
+<span class="responsive-image-spinner dots"></span>
+<span data-src="../assets/img/chambres-jonquille2-mobile.jpg"></span>
+<span data-src="../assets/img/chambres-jonquille2-desktop.jpg" data-media="(min-width: 600px)"></span>
+<span data-src="../assets/img/chambres-jonquille2-desktop_x2.jpg" data-media="(min-width: 600px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 600px) and ( min-resolution: 192dpi)"></span>
+<!--[if (lte IE 9) & (!IEMobile)]><span data-src="../assets/img/chambres-jonquille2-desktop.jpg"></span><![endif]-->
 
-		
-		
-		
+<noscript>
+<img src="../assets/img/chambres-jonquille2-desktop.jpg" alt="Chambre enfants">
+</noscript>
+</div>
+</figure>
+</div>
+<div class="slider-slide">
+<p class="bloc-info-image-legende">Salle de bain</p>
+<figure class="responsive-image">
 
-			
-			
-			
-				<div class="slider bloc-info-image">
+<div class="responsive-image-wrapper loading delayed" data-alt="Salle de bain" style="padding-bottom: 66%">
+<span class="responsive-image-spinner dots"></span>
+<span data-src="../assets/img/chambres-jonquille3-mobile.jpg"></span>
+<span data-src="../assets/img/chambres-jonquille3-desktop.jpg" data-media="(min-width: 600px)"></span>
+<span data-src="../assets/img/chambres-jonquille3-desktop_x2.jpg" data-media="(min-width: 600px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 600px) and ( min-resolution: 192dpi)"></span>
+<!--[if (lte IE 9) & (!IEMobile)]><span data-src="../assets/img/chambres-jonquille3-desktop.jpg"></span><![endif]-->
 
-				
-					<div class="slider-slide">
-					
-					
-						<p class="bloc-info-image-legende">Chambre parentale</p>
-					
-
-						<figure class="responsive-image" >
-							<!-- wrapper image -->
-						    <div class="responsive-image-wrapper loading "  data-alt="Chambre parentale" style="padding-bottom: 66%" >
-						    <span class="responsive-image-spinner dots"></span>
-
-						    	
-						      <span data-src="../assets/img/chambres-jonquille1-mobile.jpg"></span>
-						      <span data-src="../assets/img/chambres-jonquille1-desktop.jpg"  		data-media="(min-width: 600px)"></span>
-						      <span data-src="../assets/img/chambres-jonquille1-desktop_x2.jpg"     data-media="(min-width: 600px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 600px) and ( min-resolution: 192dpi)"></span>
-
-						        <!--[if (lte IE 9) & (!IEMobile)]>
-						            <span data-src="../assets/img/chambres-jonquille1-desktop.jpg"></span>
-						        <![endif]-->
-
-						        <!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
-						        <noscript>
-						          <img src="../assets/img/chambres-jonquille1-desktop.jpg" alt="Chambre parentale">
-						        </noscript>
-						    </div>
-						</figure> 
-					</div>
-				
-					<div class="slider-slide">
-					
-					
-						<p class="bloc-info-image-legende">Chambre enfants</p>
-					
-
-						<figure class="responsive-image" >
-							<!-- wrapper image -->
-						    <div class="responsive-image-wrapper loading delayed"  data-alt="Chambre enfants" style="padding-bottom: 66%" >
-						    <span class="responsive-image-spinner dots"></span>
-
-						    	
-						      <span data-src="../assets/img/chambres-jonquille2-mobile.jpg"></span>
-						      <span data-src="../assets/img/chambres-jonquille2-desktop.jpg"  		data-media="(min-width: 600px)"></span>
-						      <span data-src="../assets/img/chambres-jonquille2-desktop_x2.jpg"     data-media="(min-width: 600px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 600px) and ( min-resolution: 192dpi)"></span>
-
-						        <!--[if (lte IE 9) & (!IEMobile)]>
-						            <span data-src="../assets/img/chambres-jonquille2-desktop.jpg"></span>
-						        <![endif]-->
-
-						        <!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
-						        <noscript>
-						          <img src="../assets/img/chambres-jonquille2-desktop.jpg" alt="Chambre enfants">
-						        </noscript>
-						    </div>
-						</figure> 
-					</div>
-				
-					<div class="slider-slide">
-					
-					
-						<p class="bloc-info-image-legende">Salle de bain</p>
-					
-
-						<figure class="responsive-image" >
-							<!-- wrapper image -->
-						    <div class="responsive-image-wrapper loading delayed"  data-alt="Salle de bain" style="padding-bottom: 66%" >
-						    <span class="responsive-image-spinner dots"></span>
-
-						    	
-						      <span data-src="../assets/img/chambres-jonquille3-mobile.jpg"></span>
-						      <span data-src="../assets/img/chambres-jonquille3-desktop.jpg"  		data-media="(min-width: 600px)"></span>
-						      <span data-src="../assets/img/chambres-jonquille3-desktop_x2.jpg"     data-media="(min-width: 600px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 600px) and ( min-resolution: 192dpi)"></span>
-
-						        <!--[if (lte IE 9) & (!IEMobile)]>
-						            <span data-src="../assets/img/chambres-jonquille3-desktop.jpg"></span>
-						        <![endif]-->
-
-						        <!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
-						        <noscript>
-						          <img src="../assets/img/chambres-jonquille3-desktop.jpg" alt="Salle de bain">
-						        </noscript>
-						    </div>
-						</figure> 
-					</div>
-				
-				</div> 
-
-
-			
-			
-		 
-		
-			
-		
-		 
-		
-
-		
-		
-		<blockquote class="bloc-info-citation">
-			<p>Sous les toits, avec vue sur les pistes…
-			
-				
-			</p>
-
-		</blockquote>
-		 
-		
-		
-		
-
-	</div>
+<noscript>
+<img src="../assets/img/chambres-jonquille3-desktop.jpg" alt="Salle de bain">
+</noscript>
+</div>
+</figure>
+</div>
+</div>
+<blockquote class="bloc-info-citation">
+<p>Sous les toits, avec vue sur les pistes…
+</p>
+</blockquote>
+</div>
 </section>
+<footer id="contacts" class="footer" role="contentinfo">
+<div class="wrapper-band">
+<h5 class="footer-titre "><span>La Bartette</span></h5>
+<div class="footer-contacts" itemscope itemtype="http://schema.org/BedAndBreakfast">
+<meta itemprop="name" content="La Bartette, Chez Catherine et Daniel Laurent">
+<meta itemprop="url" content="http://www.labartette.fr/">
+<meta itemprop="currenciesAccepted" content="EUR">
+<meta itemprop="paymentAccepted" content="Chèques, Chèques Vacances, Espèces.">
+<meta itemprop="priceRange" content="40 — 70€">
+<meta itemprop="isicV4" content="55.10">
+<meta itemprop="image" content="http://www.labartette.fr/assets/img/home-header0-desktop.jpg">
+<p>
+<strong itemprop="description">Chambres et table d’hôtes</strong> <br>
+<span itemprop="address">La Vacheresse <br>
+43150 LES ESTABLES </span><br>
+<a itemprop="map"
+href="https://www.google.fr/maps/preview?ie=UTF-8&q=bartette&fb=1&gl=fr&hq=bartette&cid=9391108152719122258&ei=DkGMU9mqK6GK0AXfx4GQAQ&ved=0CDYQrwswAA&source=newuser-ws"
+target="_blank"
+title="voir la carte google">voir la carte google</a>
+</p>
+<p itemprop="geo" itemscope itemtype="http://schema.org/GeoCoordinates">
+<span itemprop="latitude">Latitude nord 44° 55' 4" </span><br>
+<span itemprop="longitude">Longitude est 4° 6' 44"</span>
+</p>
+<p>Tél. : <span itemprop="telephone">04 71 08 31 70</span> <br>
+Email : <a itemprop="email" href="mailto:labartette@orange.fr" target="_self" title="labartette@orange.fr">labartette@orange.fr</a>
+</p>
+<a href="http://www.gites-de-france.com/location-vacances-Les-Estables-Chambre-d-hotes-43G25004.html" target="_blank" title="Aller sur le site Gîtes de france" class="footer-logo-gites">
+<span>Gîtes de france, 3 épis</span>
+<figure class="responsive-image">
 
+<div class="responsive-image-wrapper loading" data-alt="logo gites de france">
+<span class="responsive-image-spinner dots"></span>
+<span data-src="../assets/img/logo-gites-desktop.png"></span>
+<span data-src="../assets/img/logo-gites-desktop_x2.png" data-media="(min-width: 600px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 600px) and ( min-resolution: 192dpi)"></span>
+<!--[if (lte IE 9) & (!IEMobile)]><span data-src="../assets/img/logo-gites-desktop.png"></span><![endif]-->
 
+<noscript>
+<img src="../assets/img/logo-gites-desktop.png" alt="logo gites de france">
+</noscript>
+</div>
+</figure>
+</a>
+<a href="http://www.routard.com/" target="_blank" title="Aller sur le site Gîtes de france" class="footer-logo-routard">
+<img src="data:image/png;base64,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" alt="logo guide du routard">
+<span>Guide du routard</span>
+</a>
+</div>
+<figure class="responsive-image footer-image">
 
+<div class="responsive-image-wrapper loading" data-alt="bienvenue à la bartette" style="padding-bottom: 100%">
+<span class="responsive-image-spinner dots"></span>
+<span data-src="../assets/img/footer-bartette.jpg"></span>
+<span data-src="../assets/img/footer-bartette.jpg" data-media="(min-width: 600px)"></span>
+<!--[if (lte IE 9) & (!IEMobile)]><span data-src="../assets/img/footer-bartette.jpg"></span><![endif]-->
 
+<noscript>
+<img src="../assets/img/footer-bartette.jpg" alt="bienvenue à la bartette">
+</noscript>
+</div>
+</figure>
+</div>
+<div class="footer-links">
+<div class="wrapper-band">
+<div class="footer-portrait">
 
+<figure class="responsive-image">
 
-    
-  
-  
+<div class="responsive-image-wrapper loading" data-alt="portrait Catherine et Daniel" style="padding-bottom: 100%">
+<span class="responsive-image-spinner dots"></span>
+<span data-src="../assets/img/footer-portrait-mobile.png"></span>
+<span data-src="../assets/img/footer-portrait-desktop.png" data-media="(min-width: 600px)"></span>
+<span data-src="../assets/img/footer-portrait-desktop_x2.png" data-media="(min-width: 600px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 600px) and ( min-resolution: 192dpi)"></span>
+<!--[if (lte IE 9) & (!IEMobile)]><span data-src="../assets/img/footer-portrait-desktop.png"></span><![endif]-->
 
-
-
-
-<footer id="contacts"	class="footer" role="contentinfo">
-	
-	<div class="wrapper-band">
-		
-		<h5 class="footer-titre "><span>La Bartette</span></h5>
-		
-	
-		
-		<div class="footer-contacts" itemscope itemtype="http://schema.org/BedAndBreakfast">
-			<meta itemprop="name" content="La Bartette, Chez Catherine et Daniel Laurent">
-			<meta itemprop="url" content="http://www.labartette.fr/">
-			<meta itemprop="currenciesAccepted" content="EUR">
-			<meta itemprop="paymentAccepted" content="Chèques, Chèques Vacances, Espèces.">
-			<meta itemprop="priceRange" content="40 — 70€">
-			<meta itemprop="isicV4" content="55.10">
-			<meta itemprop="image" content="http://www.labartette.fr/assets/img/home-header0-desktop.jpg">
-
-			<p>
-				<strong itemprop="description">Chambres et table d’hôtes</strong> <br>
-				<span itemprop="address">La Vacheresse <br>
-				43150 LES ESTABLES </span><br>
-
-				<a itemprop="map"
-					href="https://www.google.fr/maps/preview?ie=UTF-8&q=bartette&fb=1&gl=fr&hq=bartette&cid=9391108152719122258&ei=DkGMU9mqK6GK0AXfx4GQAQ&ved=0CDYQrwswAA&source=newuser-ws"
-					target="_blank"
-					title="voir la carte google">voir la carte google</a>
-			</p>
-
-			<p itemprop="geo" itemscope itemtype="http://schema.org/GeoCoordinates">
-				<span itemprop="latitude">Latitude nord 44° 55' 4" </span><br>
-				<span  itemprop="longitude">Longitude est 4° 6' 44"</span>
-			</p>
-
-			<p>Tél. : <span itemprop="telephone">04 71 08 31 70</span>  <br>
-			Email :  <a itemprop="email" href="mailto:labartette@orange.fr" target="_self" title="labartette@orange.fr">labartette@orange.fr</a>
-			</p>
-
-			
-				<a href="http://www.gites-de-france.com/location-vacances-Les-Estables-Chambre-d-hotes-43G25004.html" target="_blank" title="Aller sur le site Gîtes de france" class="footer-logo-gites">
-					<span>Gîtes de france, 3 épis</span>
-					<figure class="responsive-image" >
-
-						<!-- wrapper image -->
-					    <div class="responsive-image-wrapper loading"  data-alt="logo gites de france">
-
-					    <span class="responsive-image-spinner dots"></span>
-
-							<span data-src="../assets/img/logo-gites-desktop.png"></span>
-							<span data-src="../assets/img/logo-gites-desktop_x2.png"     data-media="(min-width: 600px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 600px) and ( min-resolution: 192dpi)"></span>
-
-					        <!--[if (lte IE 9) & (!IEMobile)]>
-					            <span data-src="../assets/img/logo-gites-desktop.png"></span>
-					        <![endif]-->
-
-					        <!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
-					        <noscript>
-					          <img src="../assets/img/logo-gites-desktop.png" alt="logo gites de france">
-					        </noscript>
-					    </div>
-					</figure> 
-				</a>
-				
-				<a href="http://www.routard.com/" target="_blank" title="Aller sur le site Gîtes de france" class="footer-logo-routard">
-					<img src="data:image/png;base64,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" alt="logo guide du routard">
-					<span>Guide du routard</span>
-				</a>			
-		</div>
-
-
-		
-		<figure class="responsive-image footer-image" >
-
-			<!-- wrapper image -->
-		    <div class="responsive-image-wrapper loading"  data-alt="bienvenue à la bartette" style="padding-bottom: 100%" >
-
-		    <span class="responsive-image-spinner dots"></span>
-
-		      <span data-src="../assets/img/footer-bartette.jpg"></span>
-		      <span data-src="../assets/img/footer-bartette.jpg"  data-media="(min-width: 600px)"></span>
-
-		        <!--[if (lte IE 9) & (!IEMobile)]>
-		            <span data-src="../assets/img/footer-bartette.jpg"></span>
-		        <![endif]-->
-
-		        <!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
-		        <noscript>
-		          <img src="../assets/img/footer-bartette.jpg" alt="bienvenue à la bartette">
-		        </noscript>
-		    </div>
-		</figure> 		
-
-
-	</div>
-	
-	
-
-
-
-	
-	<div class="footer-links">
-		<div class="wrapper-band">
-
-			
-			<div class="footer-portrait">
-				
-				<!-- IMAGE PRESENTATION -->
-				<figure class="responsive-image" >
-
-					<!-- wrapper image -->
-				    <div class="responsive-image-wrapper loading"  data-alt="portrait Catherine et Daniel" style="padding-bottom: 100%" >
-
-				    <span class="responsive-image-spinner dots"></span>
-
-				<span data-src="../assets/img/footer-portrait-mobile.png"></span>
-				<span data-src="../assets/img/footer-portrait-desktop.png"  		data-media="(min-width: 600px)"></span>
-				<span data-src="../assets/img/footer-portrait-desktop_x2.png"     data-media="(min-width: 600px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 600px) and ( min-resolution: 192dpi)"></span>
-
-				        <!--[if (lte IE 9) & (!IEMobile)]>
-				            <span data-src="../assets/img/footer-portrait-desktop.png"></span>
-				        <![endif]-->
-
-				        <!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
-				        <noscript>
-				          <img src="../assets/img/footer-portrait-desktop.png" alt="portrait Catherine et Daniel">
-				        </noscript>
-				    </div>
-				</figure>  
-			</div>
-
-	
-
-			
-			<div class="footer-links-partenaires">
-				<h6 class="footer-links-titre">Nos partenaires</h6>
-				<ul class="footer-links-list">
-				
-				<li>
-				  <span class="info-nom">Gîtes de France</span><br>
-				   
-				   <a class="info-lien" href="http://www.gites-de-france-haute-loire.com" target="_blank" title="www.gites-de-france-haute-loire.com">www.gites-de-france-haute-loire.com</a>
-				</li>
-				
-				<li>
-				  <span class="info-nom">Maison du Tourisme</span><br>
-				   
-				   <a class="info-lien" href="http://www.auvergnevacances.com" target="_blank" title="www.auvergnevacances.com">www.auvergnevacances.com</a>
-				</li>
-				
-				<li>
-				  <span class="info-nom">Association Départementale d&#x27; accueil à la Ferme</span><br>
-				   
-				   <a class="info-lien" href="http://www.bienvenue-a-la-ferme.com" target="_blank" title="www.bienvenue-a-la-ferme.com">www.bienvenue-a-la-ferme.com</a>
-				</li>
-				
-				<li>
-				  <span class="info-nom">Le Routard</span><br>
-				   
-				   <a class="info-lien" href="http://www.leroutard.com" target="_blank" title="www.leroutard.com">www.leroutard.com</a>
-				</li>
-				
-				<li>
-				  <span class="info-nom">Office de tourisme Pays du Mezenc et de la Loire sauvage</span><br>
-				  <span class="info-tel">04 71 08 37 76 ou 04 71 08 31 08 </span> <br>   
-				   <a class="info-lien" href="http://www.mezencloiresauvage.com" target="_blank" title="www.mezencloiresauvage.com">www.mezencloiresauvage.com</a>
-				</li>
-				
-				<li>
-				  <span class="info-nom">France Voyages</span><br>
-				   
-				   <a class="info-lien" href="http://www.france-voyage.com" target="_blank" title="www.france-voyage.com">www.france-voyage.com</a>
-				</li>
-				
-				</ul>
-			</div>
-
-
-			
-
-			<div class="footer-links-infos">
-				<h6 class="footer-links-titre">Infos utiles</h6>
-				<ul class="footer-links-list">
-				
-				<li>
-				  <span class="info-nom">Info neige</span><br>
-				   <span class="info-tel">04 71 08 34 33 / 04 71 08 36 64 </span> <br>   
-				  
-				</li>
-				
-				<li>
-				  <span class="info-nom">Prévisions météo</span><br>
-				   <span class="info-tel">08 92 68 02 43 </span> <br>   
-				   <a class="info-lien" href="http://www.meteofrance.fr" target="_blank" title="www.meteofrance.fr">www.meteofrance.fr</a>
-				</li>
-				
-				<li>
-				  <span class="info-nom">État des routes</span><br>
-				   <span class="info-tel">04 71 05 83 05 </span> <br>   
-				  
-				</li>
-				
-				</ul>
-			</div>
-
-
-			
-			
-
-			
-    		<p class="footer-copyright">© 2014 La Bartette, tous droits réservés.</p>
-    		<p class="footer-signature">Réalisation : <a href="http://www.s-lab.fr" target="_blank" title="Emilien Durand – Design graphique et intéractif">E • D</a></p>
-
-		</div> 
-	</div>
-
+<noscript>
+<img src="../assets/img/footer-portrait-desktop.png" alt="portrait Catherine et Daniel">
+</noscript>
+</div>
+</figure>
+</div>
+<div class="footer-links-partenaires">
+<h6 class="footer-links-titre">Nos partenaires</h6>
+<ul class="footer-links-list">
+<li>
+<span class="info-nom">Gîtes de France</span><br>
+<a class="info-lien" href="http://www.gites-de-france-haute-loire.com" target="_blank" title="www.gites-de-france-haute-loire.com">www.gites-de-france-haute-loire.com</a>
+</li>
+<li>
+<span class="info-nom">Maison du Tourisme</span><br>
+<a class="info-lien" href="http://www.auvergnevacances.com" target="_blank" title="www.auvergnevacances.com">www.auvergnevacances.com</a>
+</li>
+<li>
+<span class="info-nom">Association Départementale d&#x27; accueil à la Ferme</span><br>
+<a class="info-lien" href="http://www.bienvenue-a-la-ferme.com" target="_blank" title="www.bienvenue-a-la-ferme.com">www.bienvenue-a-la-ferme.com</a>
+</li>
+<li>
+<span class="info-nom">Le Routard</span><br>
+<a class="info-lien" href="http://www.leroutard.com" target="_blank" title="www.leroutard.com">www.leroutard.com</a>
+</li>
+<li>
+<span class="info-nom">Office de tourisme Pays du Mezenc et de la Loire sauvage</span><br>
+<span class="info-tel">04 71 08 37 76 ou 04 71 08 31 08 </span> <br>
+<a class="info-lien" href="http://www.mezencloiresauvage.com" target="_blank" title="www.mezencloiresauvage.com">www.mezencloiresauvage.com</a>
+</li>
+<li>
+<span class="info-nom">France Voyages</span><br>
+<a class="info-lien" href="http://www.france-voyage.com" target="_blank" title="www.france-voyage.com">www.france-voyage.com</a>
+</li>
+</ul>
+</div>
+<div class="footer-links-infos">
+<h6 class="footer-links-titre">Infos utiles</h6>
+<ul class="footer-links-list">
+<li>
+<span class="info-nom">Info neige</span><br>
+<span class="info-tel">04 71 08 34 33 / 04 71 08 36 64 </span> <br>
+</li>
+<li>
+<span class="info-nom">Prévisions météo</span><br>
+<span class="info-tel">08 92 68 02 43 </span> <br>
+<a class="info-lien" href="http://www.meteofrance.fr" target="_blank" title="www.meteofrance.fr">www.meteofrance.fr</a>
+</li>
+<li>
+<span class="info-nom">État des routes</span><br>
+<span class="info-tel">04 71 05 83 05 </span> <br>
+</li>
+</ul>
+</div>
+<p class="footer-copyright">© 2014 La Bartette, tous droits réservés.</p>
+<p class="footer-signature">Réalisation : <a href="http://www.s-lab.fr" target="_blank" title="Emilien Durand – Design graphique et intéractif">E • D</a></p>
+</div>
+</div>
 </footer>
-
-
 <script async src="../assets/js/app.js"></script>
-<!-- Google Analytics: change UA-XXXXX-X to be your site's ID.-->
+
 <script>
     (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
     function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
@@ -1021,7 +522,5 @@ sous les toits avec vue sur Mont Alambre et pistes de ski.</p>
   ga('create', 'UA-930844-21', 'auto');
   ga('send', 'pageview');
 </script>
-
-
 </body>
 </html>
